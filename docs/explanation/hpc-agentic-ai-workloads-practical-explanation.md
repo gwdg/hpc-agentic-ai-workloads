@@ -37,3 +37,14 @@ User Workflow:
 
 The key innovation is that the AI agents are **autonomous** - they make optimization decisions, create code, run tests, and iterate without human intervention, scaling across HPC resources automatically.
 
+Q: I still don't get what this exactly does?
+A:It's like having an AI performance engineer that automatically optimizes your HPC code by trying many different approaches and selecting the best one through actual testing.
+
+Q: Like, how does it interact with Slurm?
+A:It submits optimization jobs to Slurm that in turn spawn AI agents which submit multiple test jobs across the cluster for parallel optimization exploration.
+
+Q: Does it submit slurm jobs and let AI run in the job?
+A: Yes! The main optimization job runs AI agents that coordinate multiple test jobs across your HPC allocation.
+
+Q: What is "intelligent workload orchestration through LLM code generation" supposed to mean?
+A: It means letting AI understand your code's patterns, automatically create optimized versions, run them in parallel, and pick the fastest one - without you having to manually experiment with different optimization strategies.
