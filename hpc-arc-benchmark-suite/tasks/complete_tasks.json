@@ -1,0 +1,6212 @@
+[
+  {
+    "task_id": "E-001",
+    "name": "L1/L2/L3 Cache Threshold Behavior Discovery",
+    "category": "explore",
+    "difficulty": "intermediate",
+    "mission": "Discover cache size thresholds through systematic matrix operation profiling",
+    "description": "Cache Discovery Task 1: Discover cache size thresholds through systematic matrix operation profiling. AI agents must systematically explore cache characteristics through structured profiling experiments.",
+    "estimated_time_budget": "15 minutes",
+    "codebase": {
+      "files": [
+        "cache_exploration.c",
+        "profiling_framework.h"
+      ],
+      "language": "C99",
+      "optimization_level": "O0"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "cores": "32 physical, 64 threads",
+      "cache": "L1: 32KB/core, L2: 1MB/core, L3: 48MB/shared"
+    },
+    "available_tools": [
+      "LIKWID",
+      "perf",
+      "PAPI",
+      "VTune"
+    ],
+    "unknown_characteristics": [
+      "L1/L2/L3 cache line sizes",
+      "Optimal matrix dimensions for each cache level"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Model accuracy > 85%",
+        "weight": 0.3
+      },
+      "efficiency": {
+        "requirements": "Complete within time budget",
+        "weight": 0.3
+      },
+      "exploration": {
+        "requirements": "Minimal iteration count",
+        "weight": 0.4
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.82,
+      "optimal_theoretical": 0.95,
+      "llm_generic_baseline": 0.42,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "exploration_efficiency": 0.4,
+      "model_accuracy": 0.6
+    }
+  },
+  {
+    "task_id": "E-002",
+    "name": "Cache Line Size Exploration",
+    "category": "explore",
+    "difficulty": "elementary",
+    "mission": "Determine cache line size through stride analysis",
+    "description": "Cache Discovery Task 2: Determine cache line size through stride analysis. AI agents must systematically explore cache characteristics through structured profiling experiments.",
+    "estimated_time_budget": "15 minutes",
+    "codebase": {
+      "files": [
+        "cache_exploration.c",
+        "profiling_framework.h"
+      ],
+      "language": "C99",
+      "optimization_level": "O0"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "cores": "32 physical, 64 threads",
+      "cache": "L1: 32KB/core, L2: 1MB/core, L3: 48MB/shared"
+    },
+    "available_tools": [
+      "LIKWID",
+      "perf",
+      "PAPI",
+      "VTune"
+    ],
+    "unknown_characteristics": [
+      "Cache line width",
+      "Prefetch behavior"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Model accuracy > 85%",
+        "weight": 0.3
+      },
+      "efficiency": {
+        "requirements": "Complete within time budget",
+        "weight": 0.3
+      },
+      "exploration": {
+        "requirements": "Minimal iteration count",
+        "weight": 0.4
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.88,
+      "optimal_theoretical": 0.95,
+      "llm_generic_baseline": 0.42,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "exploration_efficiency": 0.4,
+      "model_accuracy": 0.6
+    }
+  },
+  {
+    "task_id": "E-003",
+    "name": "Cache Associativity Pattern Discovery",
+    "category": "explore",
+    "difficulty": "advanced",
+    "mission": "Map cache associativity through conflict mapping",
+    "description": "Cache Discovery Task 3: Map cache associativity through conflict mapping. AI agents must systematically explore cache characteristics through structured profiling experiments.",
+    "estimated_time_budget": "15 minutes",
+    "codebase": {
+      "files": [
+        "cache_exploration.c",
+        "profiling_framework.h"
+      ],
+      "language": "C99",
+      "optimization_level": "O0"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "cores": "32 physical, 64 threads",
+      "cache": "L1: 32KB/core, L2: 1MB/core, L3: 48MB/shared"
+    },
+    "available_tools": [
+      "LIKWID",
+      "perf",
+      "PAPI",
+      "VTune"
+    ],
+    "unknown_characteristics": [
+      "Cache associativity (-wayness)",
+      "Conflict mapping patterns"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Model accuracy > 85%",
+        "weight": 0.3
+      },
+      "efficiency": {
+        "requirements": "Complete within time budget",
+        "weight": 0.3
+      },
+      "exploration": {
+        "requirements": "Minimal iteration count",
+        "weight": 0.4
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.75,
+      "optimal_theoretical": 0.95,
+      "llm_generic_baseline": 0.42,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "exploration_efficiency": 0.4,
+      "model_accuracy": 0.6
+    }
+  },
+  {
+    "task_id": "E-004",
+    "name": "Write-Through vs Write-Back Cache Policy Discovery",
+    "category": "explore",
+    "difficulty": "intermediate",
+    "mission": "Identify cache write policy through write pattern analysis",
+    "description": "Cache Discovery Task 4: Identify cache write policy through write pattern analysis. AI agents must systematically explore cache characteristics through structured profiling experiments.",
+    "estimated_time_budget": "15 minutes",
+    "codebase": {
+      "files": [
+        "cache_exploration.c",
+        "profiling_framework.h"
+      ],
+      "language": "C99",
+      "optimization_level": "O0"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "cores": "32 physical, 64 threads",
+      "cache": "L1: 32KB/core, L2: 1MB/core, L3: 48MB/shared"
+    },
+    "available_tools": [
+      "LIKWID",
+      "perf",
+      "PAPI",
+      "VTune"
+    ],
+    "unknown_characteristics": [
+      "Cache write policy",
+      "Write buffer characteristics"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Model accuracy > 85%",
+        "weight": 0.3
+      },
+      "efficiency": {
+        "requirements": "Complete within time budget",
+        "weight": 0.3
+      },
+      "exploration": {
+        "requirements": "Minimal iteration count",
+        "weight": 0.4
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.7,
+      "optimal_theoretical": 0.95,
+      "llm_generic_baseline": 0.42,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "exploration_efficiency": 0.4,
+      "model_accuracy": 0.6
+    }
+  },
+  {
+    "task_id": "E-005",
+    "name": "TLB Translation Lookaside Buffer Discovery",
+    "category": "explore",
+    "difficulty": "advanced",
+    "mission": "Discover TLB size and associativity through page mapping",
+    "description": "Cache Discovery Task 5: Discover TLB size and associativity through page mapping. AI agents must systematically explore cache characteristics through structured profiling experiments.",
+    "estimated_time_budget": "15 minutes",
+    "codebase": {
+      "files": [
+        "cache_exploration.c",
+        "profiling_framework.h"
+      ],
+      "language": "C99",
+      "optimization_level": "O0"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "cores": "32 physical, 64 threads",
+      "cache": "L1: 32KB/core, L2: 1MB/core, L3: 48MB/shared"
+    },
+    "available_tools": [
+      "LIKWID",
+      "perf",
+      "PAPI",
+      "VTune"
+    ],
+    "unknown_characteristics": [
+      "TLB entries (L1/L2)",
+      "Page size optimization"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Model accuracy > 85%",
+        "weight": 0.3
+      },
+      "efficiency": {
+        "requirements": "Complete within time budget",
+        "weight": 0.3
+      },
+      "exploration": {
+        "requirements": "Minimal iteration count",
+        "weight": 0.4
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.65,
+      "optimal_theoretical": 0.95,
+      "llm_generic_baseline": 0.42,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "exploration_efficiency": 0.4,
+      "model_accuracy": 0.6
+    }
+  },
+  {
+    "task_id": "E-006",
+    "name": "Cache-Coherence Protocol Analysis",
+    "category": "explore",
+    "difficulty": "expert",
+    "mission": "Characterize inter-core cache coherence behavior",
+    "description": "Cache Discovery Task 6: Characterize inter-core cache coherence behavior. AI agents must systematically explore cache characteristics through structured profiling experiments.",
+    "estimated_time_budget": "15 minutes",
+    "codebase": {
+      "files": [
+        "cache_exploration.c",
+        "profiling_framework.h"
+      ],
+      "language": "C99",
+      "optimization_level": "O0"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "cores": "32 physical, 64 threads",
+      "cache": "L1: 32KB/core, L2: 1MB/core, L3: 48MB/shared"
+    },
+    "available_tools": [
+      "LIKWID",
+      "perf",
+      "PAPI",
+      "VTune"
+    ],
+    "unknown_characteristics": [
+      "Coherence protocol overhead",
+      "False sharing patterns"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Model accuracy > 85%",
+        "weight": 0.3
+      },
+      "efficiency": {
+        "requirements": "Complete within time budget",
+        "weight": 0.3
+      },
+      "exploration": {
+        "requirements": "Minimal iteration count",
+        "weight": 0.4
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.55,
+      "optimal_theoretical": 0.95,
+      "llm_generic_baseline": 0.42,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "exploration_efficiency": 0.4,
+      "model_accuracy": 0.6
+    }
+  },
+  {
+    "task_id": "E-007",
+    "name": "Branch Prediction Unit Profiling",
+    "category": "explore",
+    "difficulty": "advanced",
+    "mission": "Discover branch predictor characteristics through branch pattern testing",
+    "description": "Cache Discovery Task 7: Discover branch predictor characteristics through branch pattern testing. AI agents must systematically explore cache characteristics through structured profiling experiments.",
+    "estimated_time_budget": "15 minutes",
+    "codebase": {
+      "files": [
+        "cache_exploration.c",
+        "profiling_framework.h"
+      ],
+      "language": "C99",
+      "optimization_level": "O0"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "cores": "32 physical, 64 threads",
+      "cache": "L1: 32KB/core, L2: 1MB/core, L3: 48MB/shared"
+    },
+    "available_tools": [
+      "LIKWID",
+      "perf",
+      "PAPI",
+      "VTune"
+    ],
+    "unknown_characteristics": [
+      "Branch predictor type",
+      "BTB size and associativity"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Model accuracy > 85%",
+        "weight": 0.3
+      },
+      "efficiency": {
+        "requirements": "Complete within time budget",
+        "weight": 0.3
+      },
+      "exploration": {
+        "requirements": "Minimal iteration count",
+        "weight": 0.4
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.62,
+      "optimal_theoretical": 0.95,
+      "llm_generic_baseline": 0.42,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "exploration_efficiency": 0.4,
+      "model_accuracy": 0.6
+    }
+  },
+  {
+    "task_id": "E-008",
+    "name": "Hardware Prefetcher Detection and Analysis",
+    "category": "explore",
+    "difficulty": "intermediate",
+    "mission": "Characterize hardware prefetcher behavior and effectiveness",
+    "description": "Cache Discovery Task 8: Characterize hardware prefetcher behavior and effectiveness. AI agents must systematically explore cache characteristics through structured profiling experiments.",
+    "estimated_time_budget": "15 minutes",
+    "codebase": {
+      "files": [
+        "cache_exploration.c",
+        "profiling_framework.h"
+      ],
+      "language": "C99",
+      "optimization_level": "O0"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "cores": "32 physical, 64 threads",
+      "cache": "L1: 32KB/core, L2: 1MB/core, L3: 48MB/shared"
+    },
+    "available_tools": [
+      "LIKWID",
+      "perf",
+      "PAPI",
+      "VTune"
+    ],
+    "unknown_characteristics": [
+      "Prefetcher type",
+      "Detection distance and aggressiveness"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Model accuracy > 85%",
+        "weight": 0.3
+      },
+      "efficiency": {
+        "requirements": "Complete within time budget",
+        "weight": 0.3
+      },
+      "exploration": {
+        "requirements": "Minimal iteration count",
+        "weight": 0.4
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.68,
+      "optimal_theoretical": 0.95,
+      "llm_generic_baseline": 0.42,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "exploration_efficiency": 0.4,
+      "model_accuracy": 0.6
+    }
+  },
+  {
+    "task_id": "E-009",
+    "name": "Peak Memory Bandwidth Characterization",
+    "category": "explore",
+    "difficulty": "intermediate",
+    "mission": "Determine peak sustainable memory bandwidth",
+    "description": "Memory Discovery Task 1: Determine peak sustainable memory bandwidth. Focus on systematic memory profiling experiments.",
+    "estimated_time_budget": "20 minutes",
+    "codebase": {
+      "files": [
+        "memory_bandwidth.c",
+        "stream_style_benchmark.c"
+      ],
+      "language": "C99",
+      "optimization_level": "O0"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "memory": "384GB DDR4 3200MHz",
+      "channels": "8 memory channels"
+    },
+    "available_tools": [
+      "LIKWID",
+      "numactl",
+      "perf",
+      "mbw"
+    ],
+    "unknown_characteristics": [
+      "Maximum bandwidth (GB/s)",
+      "Bandwidth saturation patterns"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Bandwidth characterization accuracy > 90%",
+        "weight": 0.4
+      },
+      "efficiency": {
+        "requirements": "Complete within budget",
+        "weight": 0.3
+      },
+      "exploration": {
+        "requirements": "Systematic methodology",
+        "weight": 0.3
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.85,
+      "optimal_theoretical": 0.98,
+      "llm_generic_baseline": 0.38,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "exploration_efficiency": 0.35,
+      "measurement_accuracy": 0.65
+    }
+  },
+  {
+    "task_id": "E-010",
+    "name": "NUMA Node Memory Hierarchy Discovery",
+    "category": "explore",
+    "difficulty": "intermediate",
+    "mission": "Map NUMA topology and memory latency characteristics",
+    "description": "Memory Discovery Task 2: Map NUMA topology and memory latency characteristics. Focus on systematic memory profiling experiments.",
+    "estimated_time_budget": "20 minutes",
+    "codebase": {
+      "files": [
+        "memory_bandwidth.c",
+        "stream_style_benchmark.c"
+      ],
+      "language": "C99",
+      "optimization_level": "O0"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "memory": "384GB DDR4 3200MHz",
+      "channels": "8 memory channels"
+    },
+    "available_tools": [
+      "LIKWID",
+      "numactl",
+      "perf",
+      "mbw"
+    ],
+    "unknown_characteristics": [
+      "NUMA node count",
+      "Inter-node latency/throughput"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Bandwidth characterization accuracy > 90%",
+        "weight": 0.4
+      },
+      "efficiency": {
+        "requirements": "Complete within budget",
+        "weight": 0.3
+      },
+      "exploration": {
+        "requirements": "Systematic methodology",
+        "weight": 0.3
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.78,
+      "optimal_theoretical": 0.98,
+      "llm_generic_baseline": 0.38,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "exploration_efficiency": 0.35,
+      "measurement_accuracy": 0.65
+    }
+  },
+  {
+    "task_id": "E-011",
+    "name": "Prefetch Distance Optimization",
+    "category": "explore",
+    "difficulty": "advanced",
+    "mission": "Find optimal prefetch distance through systematic exploration",
+    "description": "Memory Discovery Task 3: Find optimal prefetch distance through systematic exploration. Focus on systematic memory profiling experiments.",
+    "estimated_time_budget": "20 minutes",
+    "codebase": {
+      "files": [
+        "memory_bandwidth.c",
+        "stream_style_benchmark.c"
+      ],
+      "language": "C99",
+      "optimization_level": "O0"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "memory": "384GB DDR4 3200MHz",
+      "channels": "8 memory channels"
+    },
+    "available_tools": [
+      "LIKWID",
+      "numactl",
+      "perf",
+      "mbw"
+    ],
+    "unknown_characteristics": [
+      "Optimal prefetch gap",
+      "Prefetch bandwidth saturation"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Bandwidth characterization accuracy > 90%",
+        "weight": 0.4
+      },
+      "efficiency": {
+        "requirements": "Complete within budget",
+        "weight": 0.3
+      },
+      "exploration": {
+        "requirements": "Systematic methodology",
+        "weight": 0.3
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.72,
+      "optimal_theoretical": 0.98,
+      "llm_generic_baseline": 0.38,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "exploration_efficiency": 0.35,
+      "measurement_accuracy": 0.65
+    }
+  },
+  {
+    "task_id": "E-012",
+    "name": "Memory Controller Concurrency Analysis",
+    "category": "explore",
+    "difficulty": "expert",
+    "mission": "Characterize memory controller parallelism and queuing",
+    "description": "Memory Discovery Task 4: Characterize memory controller parallelism and queuing. Focus on systematic memory profiling experiments.",
+    "estimated_time_budget": "20 minutes",
+    "codebase": {
+      "files": [
+        "memory_bandwidth.c",
+        "stream_style_benchmark.c"
+      ],
+      "language": "C99",
+      "optimization_level": "O0"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "memory": "384GB DDR4 3200MHz",
+      "channels": "8 memory channels"
+    },
+    "available_tools": [
+      "LIKWID",
+      "numactl",
+      "perf",
+      "mbw"
+    ],
+    "unknown_characteristics": [
+      "Memory channel count",
+      "Controller concurrency limits"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Bandwidth characterization accuracy > 90%",
+        "weight": 0.4
+      },
+      "efficiency": {
+        "requirements": "Complete within budget",
+        "weight": 0.3
+      },
+      "exploration": {
+        "requirements": "Systematic methodology",
+        "weight": 0.3
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.58,
+      "optimal_theoretical": 0.98,
+      "llm_generic_baseline": 0.38,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "exploration_efficiency": 0.35,
+      "measurement_accuracy": 0.65
+    }
+  },
+  {
+    "task_id": "E-013",
+    "name": "TLB Miss Cost Quantification",
+    "category": "explore",
+    "difficulty": "advanced",
+    "mission": "Measure TLB miss costs across different access patterns",
+    "description": "Memory Discovery Task 5: Measure TLB miss costs across different access patterns. Focus on systematic memory profiling experiments.",
+    "estimated_time_budget": "20 minutes",
+    "codebase": {
+      "files": [
+        "memory_bandwidth.c",
+        "stream_style_benchmark.c"
+      ],
+      "language": "C99",
+      "optimization_level": "O0"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "memory": "384GB DDR4 3200MHz",
+      "channels": "8 memory channels"
+    },
+    "available_tools": [
+      "LIKWID",
+      "numactl",
+      "perf",
+      "mbw"
+    ],
+    "unknown_characteristics": [
+      "TLB miss latency (cycles)",
+      "TLB replacement policy"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Bandwidth characterization accuracy > 90%",
+        "weight": 0.4
+      },
+      "efficiency": {
+        "requirements": "Complete within budget",
+        "weight": 0.3
+      },
+      "exploration": {
+        "requirements": "Systematic methodology",
+        "weight": 0.3
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.65,
+      "optimal_theoretical": 0.98,
+      "llm_generic_baseline": 0.38,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "exploration_efficiency": 0.35,
+      "measurement_accuracy": 0.65
+    }
+  },
+  {
+    "task_id": "E-014",
+    "name": "Vector Load/Unit Store Characteristics",
+    "category": "explore",
+    "difficulty": "intermediate",
+    "mission": "Profile vector memory access patterns and efficiency",
+    "description": "Memory Discovery Task 6: Profile vector memory access patterns and efficiency. Focus on systematic memory profiling experiments.",
+    "estimated_time_budget": "20 minutes",
+    "codebase": {
+      "files": [
+        "memory_bandwidth.c",
+        "stream_style_benchmark.c"
+      ],
+      "language": "C99",
+      "optimization_level": "O0"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "memory": "384GB DDR4 3200MHz",
+      "channels": "8 memory channels"
+    },
+    "available_tools": [
+      "LIKWID",
+      "numactl",
+      "perf",
+      "mbw"
+    ],
+    "unknown_characteristics": [
+      "Vector load/store throughput",
+      "Gather/scatter costs"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Bandwidth characterization accuracy > 90%",
+        "weight": 0.4
+      },
+      "efficiency": {
+        "requirements": "Complete within budget",
+        "weight": 0.3
+      },
+      "exploration": {
+        "requirements": "Systematic methodology",
+        "weight": 0.3
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.7,
+      "optimal_theoretical": 0.98,
+      "llm_generic_baseline": 0.38,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "exploration_efficiency": 0.35,
+      "measurement_accuracy": 0.65
+    }
+  },
+  {
+    "task_id": "E-015",
+    "name": "Non-Unit Stride Access Pattern Discovery",
+    "category": "explore",
+    "difficulty": "advanced",
+    "mission": "Characterize performance of non-unit stride memory patterns",
+    "description": "Memory Discovery Task 7: Characterize performance of non-unit stride memory patterns. Focus on systematic memory profiling experiments.",
+    "estimated_time_budget": "20 minutes",
+    "codebase": {
+      "files": [
+        "memory_bandwidth.c",
+        "stream_style_benchmark.c"
+      ],
+      "language": "C99",
+      "optimization_level": "O0"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "memory": "384GB DDR4 3200MHz",
+      "channels": "8 memory channels"
+    },
+    "available_tools": [
+      "LIKWID",
+      "numactl",
+      "perf",
+      "mbw"
+    ],
+    "unknown_characteristics": [
+      "Stride efficiency degradation",
+      "Optimal stride values"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Bandwidth characterization accuracy > 90%",
+        "weight": 0.4
+      },
+      "efficiency": {
+        "requirements": "Complete within budget",
+        "weight": 0.3
+      },
+      "exploration": {
+        "requirements": "Systematic methodology",
+        "weight": 0.3
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.62,
+      "optimal_theoretical": 0.98,
+      "llm_generic_baseline": 0.38,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "exploration_efficiency": 0.35,
+      "measurement_accuracy": 0.65
+    }
+  },
+  {
+    "task_id": "E-016",
+    "name": "Memory Compression and Encryption Effects",
+    "category": "explore",
+    "difficulty": "expert",
+    "mission": "Detect hardware memory compression/encryption and performance impact",
+    "description": "Memory Discovery Task 8: Detect hardware memory compression/encryption and performance impact. Focus on systematic memory profiling experiments.",
+    "estimated_time_budget": "20 minutes",
+    "codebase": {
+      "files": [
+        "memory_bandwidth.c",
+        "stream_style_benchmark.c"
+      ],
+      "language": "C99",
+      "optimization_level": "O0"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "memory": "384GB DDR4 3200MHz",
+      "channels": "8 memory channels"
+    },
+    "available_tools": [
+      "LIKWID",
+      "numactl",
+      "perf",
+      "mbw"
+    ],
+    "unknown_characteristics": [
+      "Compression enablement",
+      "Performance impact of encryption"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Bandwidth characterization accuracy > 90%",
+        "weight": 0.4
+      },
+      "efficiency": {
+        "requirements": "Complete within budget",
+        "weight": 0.3
+      },
+      "exploration": {
+        "requirements": "Systematic methodology",
+        "weight": 0.3
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.48,
+      "optimal_theoretical": 0.98,
+      "llm_generic_baseline": 0.38,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "exploration_efficiency": 0.35,
+      "measurement_accuracy": 0.65
+    }
+  },
+  {
+    "task_id": "E-017",
+    "name": "Core Frequency Scaling Behavior Discovery",
+    "category": "explore",
+    "difficulty": "intermediate",
+    "mission": "Map turbo boost frequency scaling characteristics",
+    "description": "CPU/Core Discovery Task 1: Map turbo boost frequency scaling characteristics. Focus on core-level hardware capabilities.",
+    "estimated_time_budget": "18 minutes",
+    "codebase": {
+      "files": [
+        "core_profiling.c",
+        "instruction_stream.c"
+      ],
+      "language": "C99",
+      "optimization_level": "O0"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "cores": "32 physical, 64 threads",
+      "simd": "AVX-512 (2x512-bit FMA units)"
+    },
+    "available_tools": [
+      "perf",
+      "LIKWID",
+      "cpufreq-info",
+      "lscpu"
+    ],
+    "unknown_characteristics": [
+      "Turbo boost duration limits",
+      "Thermal throttling thresholds"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Characteristic accuracy > 85%",
+        "weight": 0.35
+      },
+      "efficiency": {
+        "requirements": "Complete within budget",
+        "weight": 0.35
+      },
+      "exploration": {
+        "requirements": "Systematic protocol design",
+        "weight": 0.3
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.75,
+      "optimal_theoretical": 0.96,
+      "llm_generic_baseline": 0.4,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "exploration_efficiency": 0.4,
+      "characterization_completeness": 0.6
+    }
+  },
+  {
+    "task_id": "E-018",
+    "name": "Hyper-Threading Effectiveness Analysis",
+    "category": "explore",
+    "difficulty": "intermediate",
+    "mission": "Quantify hyper-threading performance impact across workloads",
+    "description": "CPU/Core Discovery Task 2: Quantify hyper-threading performance impact across workloads. Focus on core-level hardware capabilities.",
+    "estimated_time_budget": "18 minutes",
+    "codebase": {
+      "files": [
+        "core_profiling.c",
+        "instruction_stream.c"
+      ],
+      "language": "C99",
+      "optimization_level": "O0"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "cores": "32 physical, 64 threads",
+      "simd": "AVX-512 (2x512-bit FMA units)"
+    },
+    "available_tools": [
+      "perf",
+      "LIKWID",
+      "cpufreq-info",
+      "lscpu"
+    ],
+    "unknown_characteristics": [
+      "SMT performance gain",
+      "Resource contention effects"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Characteristic accuracy > 85%",
+        "weight": 0.35
+      },
+      "efficiency": {
+        "requirements": "Complete within budget",
+        "weight": 0.35
+      },
+      "exploration": {
+        "requirements": "Systematic protocol design",
+        "weight": 0.3
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.68,
+      "optimal_theoretical": 0.96,
+      "llm_generic_baseline": 0.4,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "exploration_efficiency": 0.4,
+      "characterization_completeness": 0.6
+    }
+  },
+  {
+    "task_id": "E-019",
+    "name": "Vector Unit Capabilities Discovery",
+    "category": "explore",
+    "difficulty": "elementary",
+    "mission": "Characterize SIMD vector unit capabilities and limitations",
+    "description": "CPU/Core Discovery Task 3: Characterize SIMD vector unit capabilities and limitations. Focus on core-level hardware capabilities.",
+    "estimated_time_budget": "18 minutes",
+    "codebase": {
+      "files": [
+        "core_profiling.c",
+        "instruction_stream.c"
+      ],
+      "language": "C99",
+      "optimization_level": "O0"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "cores": "32 physical, 64 threads",
+      "simd": "AVX-512 (2x512-bit FMA units)"
+    },
+    "available_tools": [
+      "perf",
+      "LIKWID",
+      "cpufreq-info",
+      "lscpu"
+    ],
+    "unknown_characteristics": [
+      "SIMD width (AVX-256/AVX-512)",
+      "Vector register count"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Characteristic accuracy > 85%",
+        "weight": 0.35
+      },
+      "efficiency": {
+        "requirements": "Complete within budget",
+        "weight": 0.35
+      },
+      "exploration": {
+        "requirements": "Systematic protocol design",
+        "weight": 0.3
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.82,
+      "optimal_theoretical": 0.96,
+      "llm_generic_baseline": 0.4,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "exploration_efficiency": 0.4,
+      "characterization_completeness": 0.6
+    }
+  },
+  {
+    "task_id": "E-020",
+    "name": "Instruction Pipeline Parallelism",
+    "category": "explore",
+    "difficulty": "advanced",
+    "mission": "Discover instruction pipeline depth and parallelism through latency testing",
+    "description": "CPU/Core Discovery Task 4: Discover instruction pipeline depth and parallelism through latency testing. Focus on core-level hardware capabilities.",
+    "estimated_time_budget": "18 minutes",
+    "codebase": {
+      "files": [
+        "core_profiling.c",
+        "instruction_stream.c"
+      ],
+      "language": "C99",
+      "optimization_level": "O0"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "cores": "32 physical, 64 threads",
+      "simd": "AVX-512 (2x512-bit FMA units)"
+    },
+    "available_tools": [
+      "perf",
+      "LIKWID",
+      "cpufreq-info",
+      "lscpu"
+    ],
+    "unknown_characteristics": [
+      "Pipeline depth",
+      "Instruction issue width"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Characteristic accuracy > 85%",
+        "weight": 0.35
+      },
+      "efficiency": {
+        "requirements": "Complete within budget",
+        "weight": 0.35
+      },
+      "exploration": {
+        "requirements": "Systematic protocol design",
+        "weight": 0.3
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.55,
+      "optimal_theoretical": 0.96,
+      "llm_generic_baseline": 0.4,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "exploration_efficiency": 0.4,
+      "characterization_completeness": 0.6
+    }
+  },
+  {
+    "task_id": "E-021",
+    "name": "Distributed Tag Store / Instruction Cache Analysis",
+    "category": "explore",
+    "difficulty": "expert",
+    "mission": "Characterize instruction cache and fetch unit characteristics",
+    "description": "CPU/Core Discovery Task 5: Characterize instruction cache and fetch unit characteristics. Focus on core-level hardware capabilities.",
+    "estimated_time_budget": "18 minutes",
+    "codebase": {
+      "files": [
+        "core_profiling.c",
+        "instruction_stream.c"
+      ],
+      "language": "C99",
+      "optimization_level": "O0"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "cores": "32 physical, 64 threads",
+      "simd": "AVX-512 (2x512-bit FMA units)"
+    },
+    "available_tools": [
+      "perf",
+      "LIKWID",
+      "cpufreq-info",
+      "lscpu"
+    ],
+    "unknown_characteristics": [
+      "I-Cache size/associativity",
+      "Instruction fetch bandwidth"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Characteristic accuracy > 85%",
+        "weight": 0.35
+      },
+      "efficiency": {
+        "requirements": "Complete within budget",
+        "weight": 0.35
+      },
+      "exploration": {
+        "requirements": "Systematic protocol design",
+        "weight": 0.3
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.52,
+      "optimal_theoretical": 0.96,
+      "llm_generic_baseline": 0.4,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "exploration_efficiency": 0.4,
+      "characterization_completeness": 0.6
+    }
+  },
+  {
+    "task_id": "E-022",
+    "name": "Thread Synchronization Primitives Discovery",
+    "category": "explore",
+    "difficulty": "intermediate",
+    "mission": "Characterize synchronization primitive costs and scalability",
+    "description": "System Discovery Task 1: Characterize synchronization primitive costs and scalability. Focus on OS and threading characteristics.",
+    "estimated_time_budget": "22 minutes",
+    "codebase": {
+      "files": [
+        "sync_profiling.c",
+        "atomic_operations.c"
+      ],
+      "language": "C99",
+      "optimization_level": "O0"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "sockets": "2 sockets",
+      "interconnect": "UPI 11.2GT/s"
+    },
+    "available_tools": [
+      "perf",
+      "strace",
+      "latencytop",
+      "LIKWID"
+    ],
+    "unknown_characteristics": [
+      "Pthread mutex cost",
+      "Futex vs semaphore overhead"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Synchronization cost accuracy > 80%",
+        "weight": 0.35
+      },
+      "efficiency": {
+        "requirements": "Complete within budget",
+        "weight": 0.35
+      },
+      "exploration": {
+        "requirements": "Systematic contended testing",
+        "weight": 0.3
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.7,
+      "optimal_theoretical": 0.94,
+      "llm_generic_baseline": 0.42,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "exploration_efficiency": 0.4,
+      "measurement_methodology": 0.6
+    }
+  },
+  {
+    "task_id": "E-023",
+    "name": "Atomic Operation Performance Analysis",
+    "category": "explore",
+    "difficulty": "advanced",
+    "mission": "Profile atomic operation performance and contention behavior",
+    "description": "System Discovery Task 2: Profile atomic operation performance and contention behavior. Focus on OS and threading characteristics.",
+    "estimated_time_budget": "22 minutes",
+    "codebase": {
+      "files": [
+        "sync_profiling.c",
+        "atomic_operations.c"
+      ],
+      "language": "C99",
+      "optimization_level": "O0"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "sockets": "2 sockets",
+      "interconnect": "UPI 11.2GT/s"
+    },
+    "available_tools": [
+      "perf",
+      "strace",
+      "latencytop",
+      "LIKWID"
+    ],
+    "unknown_characteristics": [
+      "Atomic operation latency",
+      "Cache line bouncing cost"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Synchronization cost accuracy > 80%",
+        "weight": 0.35
+      },
+      "efficiency": {
+        "requirements": "Complete within budget",
+        "weight": 0.35
+      },
+      "exploration": {
+        "requirements": "Systematic contended testing",
+        "weight": 0.3
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.65,
+      "optimal_theoretical": 0.94,
+      "llm_generic_baseline": 0.42,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "exploration_efficiency": 0.4,
+      "measurement_methodology": 0.6
+    }
+  },
+  {
+    "task_id": "E-024",
+    "name": "Inter-Socket Communication Costs",
+    "category": "explore",
+    "difficulty": "expert",
+    "mission": "Quantify cross-socket communication latency and bandwidth",
+    "description": "System Discovery Task 3: Quantify cross-socket communication latency and bandwidth. Focus on OS and threading characteristics.",
+    "estimated_time_budget": "22 minutes",
+    "codebase": {
+      "files": [
+        "sync_profiling.c",
+        "atomic_operations.c"
+      ],
+      "language": "C99",
+      "optimization_level": "O0"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "sockets": "2 sockets",
+      "interconnect": "UPI 11.2GT/s"
+    },
+    "available_tools": [
+      "perf",
+      "strace",
+      "latencytop",
+      "LIKWID"
+    ],
+    "unknown_characteristics": [
+      "QPI/UPI interconnect latency",
+      "Coherence protocol costs"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Synchronization cost accuracy > 80%",
+        "weight": 0.35
+      },
+      "efficiency": {
+        "requirements": "Complete within budget",
+        "weight": 0.35
+      },
+      "exploration": {
+        "requirements": "Systematic contended testing",
+        "weight": 0.3
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.58,
+      "optimal_theoretical": 0.94,
+      "llm_generic_baseline": 0.42,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "exploration_efficiency": 0.4,
+      "measurement_methodology": 0.6
+    }
+  },
+  {
+    "task_id": "E-025",
+    "name": "System Call Overhead Analysis",
+    "category": "explore",
+    "difficulty": "advanced",
+    "mission": "Measure system call costs and kernel modeswitch penalties",
+    "description": "System Discovery Task 4: Measure system call costs and kernel modeswitch penalties. Focus on OS and threading characteristics.",
+    "estimated_time_budget": "22 minutes",
+    "codebase": {
+      "files": [
+        "sync_profiling.c",
+        "atomic_operations.c"
+      ],
+      "language": "C99",
+      "optimization_level": "O0"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "sockets": "2 sockets",
+      "interconnect": "UPI 11.2GT/s"
+    },
+    "available_tools": [
+      "perf",
+      "strace",
+      "latencytop",
+      "LIKWID"
+    ],
+    "unknown_characteristics": [
+      "System call base cost",
+      "Context switch overhead"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Synchronization cost accuracy > 80%",
+        "weight": 0.35
+      },
+      "efficiency": {
+        "requirements": "Complete within budget",
+        "weight": 0.35
+      },
+      "exploration": {
+        "requirements": "Systematic contended testing",
+        "weight": 0.3
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.62,
+      "optimal_theoretical": 0.94,
+      "llm_generic_baseline": 0.42,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "exploration_efficiency": 0.4,
+      "measurement_methodology": 0.6
+    }
+  },
+  {
+    "task_id": "H-001",
+    "name": "NUMA-Aware Memory Allocation Impact Prediction",
+    "category": "hypothesize",
+    "difficulty": "intermediate",
+    "mission": "Formulate hypothesis about NUMA-aware first-touch allocation improvements",
+    "description": "Memory Optimization Hypothesis 1: Formulate hypothesis about NUMA-aware first-touch allocation improvements. Requires quantitative predictions with feasibility assessment.",
+    "estimated_time_budget": "12 minutes",
+    "codebase": {
+      "files": [
+        "memory_analysis.c",
+        "impact_estimation.c"
+      ],
+      "language": "C99",
+      "optimization_level": "O2"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "memory": "384GB DDR4",
+      "cache": "LLC: 48MB"
+    },
+    "available_tools": [
+      "perf",
+      "LIKWID",
+      "VTune analyzer"
+    ],
+    "unknown_characteristics": [
+      "NUMA locality improvement",
+      "Remote memory access reduction"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Prediction accuracy > 85%",
+        "weight": 0.35
+      },
+      "efficiency": {
+        "requirements": "Feasibility assessment",
+        "weight": 0.35
+      },
+      "hypothesis": {
+        "requirements": "Quantitative confidence level",
+        "weight": 0.3
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.78,
+      "optimal_theoretical": 0.97,
+      "llm_generic_baseline": 0.45,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "prediction_accuracy": 0.4,
+      "feasibility_assessment": 0.3,
+      "impact_prioritization": 0.3
+    }
+  },
+  {
+    "task_id": "H-002",
+    "name": "Cache-Blocking Matrix Multiplication Impact Analysis",
+    "category": "hypothesize",
+    "difficulty": "intermediate",
+    "mission": "Predict optimal cache-blocking dimensions and expected speedup",
+    "description": "Memory Optimization Hypothesis 2: Predict optimal cache-blocking dimensions and expected speedup. Requires quantitative predictions with feasibility assessment.",
+    "estimated_time_budget": "12 minutes",
+    "codebase": {
+      "files": [
+        "memory_analysis.c",
+        "impact_estimation.c"
+      ],
+      "language": "C99",
+      "optimization_level": "O2"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "memory": "384GB DDR4",
+      "cache": "LLC: 48MB"
+    },
+    "available_tools": [
+      "perf",
+      "LIKWID",
+      "VTune analyzer"
+    ],
+    "unknown_characteristics": [
+      "Optimal block size",
+      "Cache miss reduction estimate"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Prediction accuracy > 85%",
+        "weight": 0.35
+      },
+      "efficiency": {
+        "requirements": "Feasibility assessment",
+        "weight": 0.35
+      },
+      "hypothesis": {
+        "requirements": "Quantitative confidence level",
+        "weight": 0.3
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.85,
+      "optimal_theoretical": 0.97,
+      "llm_generic_baseline": 0.45,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "prediction_accuracy": 0.4,
+      "feasibility_assessment": 0.3,
+      "impact_prioritization": 0.3
+    }
+  },
+  {
+    "task_id": "H-003",
+    "name": "Vector Register Reuse Opportunity Assessment",
+    "category": "hypothesize",
+    "difficulty": "advanced",
+    "mission": "Hypothesize vector register reuse opportunities in compute kernels",
+    "description": "Memory Optimization Hypothesis 3: Hypothesize vector register reuse opportunities in compute kernels. Requires quantitative predictions with feasibility assessment.",
+    "estimated_time_budget": "12 minutes",
+    "codebase": {
+      "files": [
+        "memory_analysis.c",
+        "impact_estimation.c"
+      ],
+      "language": "C99",
+      "optimization_level": "O2"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "memory": "384GB DDR4",
+      "cache": "LLC: 48MB"
+    },
+    "available_tools": [
+      "perf",
+      "LIKWID",
+      "VTune analyzer"
+    ],
+    "unknown_characteristics": [
+      "Register pressure analysis",
+      "Vectorization efficiency gain"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Prediction accuracy > 85%",
+        "weight": 0.35
+      },
+      "efficiency": {
+        "requirements": "Feasibility assessment",
+        "weight": 0.35
+      },
+      "hypothesis": {
+        "requirements": "Quantitative confidence level",
+        "weight": 0.3
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.72,
+      "optimal_theoretical": 0.97,
+      "llm_generic_baseline": 0.45,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "prediction_accuracy": 0.4,
+      "feasibility_assessment": 0.3,
+      "impact_prioritization": 0.3
+    }
+  },
+  {
+    "task_id": "H-004",
+    "name": "Memory Access Pattern Regularization Hypothesis",
+    "category": "hypothesize",
+    "difficulty": "advanced",
+    "mission": "Formulate hypothesis about memory pattern regularization benefits",
+    "description": "Memory Optimization Hypothesis 4: Formulate hypothesis about memory pattern regularization benefits. Requires quantitative predictions with feasibility assessment.",
+    "estimated_time_budget": "12 minutes",
+    "codebase": {
+      "files": [
+        "memory_analysis.c",
+        "impact_estimation.c"
+      ],
+      "language": "C99",
+      "optimization_level": "O2"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "memory": "384GB DDR4",
+      "cache": "LLC: 48MB"
+    },
+    "available_tools": [
+      "perf",
+      "LIKWID",
+      "VTune analyzer"
+    ],
+    "unknown_characteristics": [
+      "Stride regularization improvement",
+      "Spatial locality gain"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Prediction accuracy > 85%",
+        "weight": 0.35
+      },
+      "efficiency": {
+        "requirements": "Feasibility assessment",
+        "weight": 0.35
+      },
+      "hypothesis": {
+        "requirements": "Quantitative confidence level",
+        "weight": 0.3
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.68,
+      "optimal_theoretical": 0.97,
+      "llm_generic_baseline": 0.45,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "prediction_accuracy": 0.4,
+      "feasibility_assessment": 0.3,
+      "impact_prioritization": 0.3
+    }
+  },
+  {
+    "task_id": "H-005",
+    "name": "Prefetch Strategy Feasibility Assessment",
+    "category": "hypothesize",
+    "difficulty": "advanced",
+    "mission": "Evaluate hardware prefetch versus software prefetch tradeoffs",
+    "description": "Memory Optimization Hypothesis 5: Evaluate hardware prefetch versus software prefetch tradeoffs. Requires quantitative predictions with feasibility assessment.",
+    "estimated_time_budget": "12 minutes",
+    "codebase": {
+      "files": [
+        "memory_analysis.c",
+        "impact_estimation.c"
+      ],
+      "language": "C99",
+      "optimization_level": "O2"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "memory": "384GB DDR4",
+      "cache": "LLC: 48MB"
+    },
+    "available_tools": [
+      "perf",
+      "LIKWID",
+      "VTune analyzer"
+    ],
+    "unknown_characteristics": [
+      "Prefetch distance optimization",
+      "Prefetch bandwidth impact"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Prediction accuracy > 85%",
+        "weight": 0.35
+      },
+      "efficiency": {
+        "requirements": "Feasibility assessment",
+        "weight": 0.35
+      },
+      "hypothesis": {
+        "requirements": "Quantitative confidence level",
+        "weight": 0.3
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.65,
+      "optimal_theoretical": 0.97,
+      "llm_generic_baseline": 0.45,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "prediction_accuracy": 0.4,
+      "feasibility_assessment": 0.3,
+      "impact_prioritization": 0.3
+    }
+  },
+  {
+    "task_id": "H-006",
+    "name": "Loop Tiling Strategy Space Exploration",
+    "category": "hypothesize",
+    "difficulty": "expert",
+    "mission": "Formulate hypothesis about optimal multi-dimensional tiling strategies",
+    "description": "Memory Optimization Hypothesis 6: Formulate hypothesis about optimal multi-dimensional tiling strategies. Requires quantitative predictions with feasibility assessment.",
+    "estimated_time_budget": "12 minutes",
+    "codebase": {
+      "files": [
+        "memory_analysis.c",
+        "impact_estimation.c"
+      ],
+      "language": "C99",
+      "optimization_level": "O2"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "memory": "384GB DDR4",
+      "cache": "LLC: 48MB"
+    },
+    "available_tools": [
+      "perf",
+      "LIKWID",
+      "VTune analyzer"
+    ],
+    "unknown_characteristics": [
+      "Tiling dimensions tradeoffs",
+      "Register pressure vs cache locality"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Prediction accuracy > 85%",
+        "weight": 0.35
+      },
+      "efficiency": {
+        "requirements": "Feasibility assessment",
+        "weight": 0.35
+      },
+      "hypothesis": {
+        "requirements": "Quantitative confidence level",
+        "weight": 0.3
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.58,
+      "optimal_theoretical": 0.97,
+      "llm_generic_baseline": 0.45,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "prediction_accuracy": 0.4,
+      "feasibility_assessment": 0.3,
+      "impact_prioritization": 0.3
+    }
+  },
+  {
+    "task_id": "H-007",
+    "name": "Data Layout Transformation Impact Prediction",
+    "category": "hypothesize",
+    "difficulty": "advanced",
+    "mission": "Assess AoS vs SoA vs hybrid layout performance characteristics",
+    "description": "Memory Optimization Hypothesis 7: Assess AoS vs SoA vs hybrid layout performance characteristics. Requires quantitative predictions with feasibility assessment.",
+    "estimated_time_budget": "12 minutes",
+    "codebase": {
+      "files": [
+        "memory_analysis.c",
+        "impact_estimation.c"
+      ],
+      "language": "C99",
+      "optimization_level": "O2"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "memory": "384GB DDR4",
+      "cache": "LLC: 48MB"
+    },
+    "available_tools": [
+      "perf",
+      "LIKWID",
+      "VTune analyzer"
+    ],
+    "unknown_characteristics": [
+      "Layout transformation benefit",
+      "Vectorization compatibility"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Prediction accuracy > 85%",
+        "weight": 0.35
+      },
+      "efficiency": {
+        "requirements": "Feasibility assessment",
+        "weight": 0.35
+      },
+      "hypothesis": {
+        "requirements": "Quantitative confidence level",
+        "weight": 0.3
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.62,
+      "optimal_theoretical": 0.97,
+      "llm_generic_baseline": 0.45,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "prediction_accuracy": 0.4,
+      "feasibility_assessment": 0.3,
+      "impact_prioritization": 0.3
+    }
+  },
+  {
+    "task_id": "H-008",
+    "name": "Memory Compression Opportunity Analysis",
+    "category": "hypothesize",
+    "difficulty": "expert",
+    "mission": "Hypothesize benefit of algorithmic memory compression techniques",
+    "description": "Memory Optimization Hypothesis 8: Hypothesize benefit of algorithmic memory compression techniques. Requires quantitative predictions with feasibility assessment.",
+    "estimated_time_budget": "12 minutes",
+    "codebase": {
+      "files": [
+        "memory_analysis.c",
+        "impact_estimation.c"
+      ],
+      "language": "C99",
+      "optimization_level": "O2"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "memory": "384GB DDR4",
+      "cache": "LLC: 48MB"
+    },
+    "available_tools": [
+      "perf",
+      "LIKWID",
+      "VTune analyzer"
+    ],
+    "unknown_characteristics": [
+      "Compression factor vs speedup",
+      "Decompression cost analysis"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Prediction accuracy > 85%",
+        "weight": 0.35
+      },
+      "efficiency": {
+        "requirements": "Feasibility assessment",
+        "weight": 0.35
+      },
+      "hypothesis": {
+        "requirements": "Quantitative confidence level",
+        "weight": 0.3
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.48,
+      "optimal_theoretical": 0.97,
+      "llm_generic_baseline": 0.45,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "prediction_accuracy": 0.4,
+      "feasibility_assessment": 0.3,
+      "impact_prioritization": 0.3
+    }
+  },
+  {
+    "task_id": "H-009",
+    "name": "AVX Vectorization Speedup Prediction",
+    "category": "hypothesize",
+    "difficulty": "elementary",
+    "mission": "Predict AVX-512 vectorization benefits for specific compute kernels",
+    "description": "Compute Optimization Hypothesis 1: Predict AVX-512 vectorization benefits for specific compute kernels. Focus on instruction-level optimization prediction.",
+    "estimated_time_budget": "10 minutes",
+    "codebase": {
+      "files": [
+        "compute_kernels.c",
+        "vectorization_analysis.c"
+      ],
+      "language": "C99",
+      "optimization_level": "O2"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "simd": "AVX-512 with 2xFMA"
+    },
+    "available_tools": [
+      "perf",
+      "objdump",
+      "LatencyTOP"
+    ],
+    "unknown_characteristics": [
+      "Speedup flops-to-flops ratio",
+      "Vectorization overhead"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Prediction error < 15%",
+        "weight": 0.3
+      },
+      "efficiency": {
+        "requirements": "Implementation complexity assessment",
+        "weight": 0.35
+      },
+      "hypothesis": {
+        "requirements": "Confidence interval specification",
+        "weight": 0.35
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.82,
+      "optimal_theoretical": 0.96,
+      "llm_generic_baseline": 0.42,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "prediction_accuracy": 0.35,
+      "feasibility_assessment": 0.35,
+      "implementation_complexity": 0.3
+    }
+  },
+  {
+    "task_id": "H-010",
+    "name": "Loop Unrolling Impact Assessment",
+    "category": "hypothesize",
+    "difficulty": "intermediate",
+    "mission": "Formulate hypothesis about optimal loop unrolling factors",
+    "description": "Compute Optimization Hypothesis 2: Formulate hypothesis about optimal loop unrolling factors. Focus on instruction-level optimization prediction.",
+    "estimated_time_budget": "10 minutes",
+    "codebase": {
+      "files": [
+        "compute_kernels.c",
+        "vectorization_analysis.c"
+      ],
+      "language": "C99",
+      "optimization_level": "O2"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "simd": "AVX-512 with 2xFMA"
+    },
+    "available_tools": [
+      "perf",
+      "objdump",
+      "LatencyTOP"
+    ],
+    "unknown_characteristics": [
+      "Unrolling factor sweet spot",
+      "Instruction cache pressure"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Prediction error < 15%",
+        "weight": 0.3
+      },
+      "efficiency": {
+        "requirements": "Implementation complexity assessment",
+        "weight": 0.35
+      },
+      "hypothesis": {
+        "requirements": "Confidence interval specification",
+        "weight": 0.35
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.75,
+      "optimal_theoretical": 0.96,
+      "llm_generic_baseline": 0.42,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "prediction_accuracy": 0.35,
+      "feasibility_assessment": 0.35,
+      "implementation_complexity": 0.3
+    }
+  },
+  {
+    "task_id": "H-011",
+    "name": "FMA Operation Effectiveness Hypothesis",
+    "category": "hypothesize",
+    "difficulty": "intermediate",
+    "mission": "Assess fused multiply-add operation benefits vs separate mul+add",
+    "description": "Compute Optimization Hypothesis 3: Assess fused multiply-add operation benefits vs separate mul+add. Focus on instruction-level optimization prediction.",
+    "estimated_time_budget": "10 minutes",
+    "codebase": {
+      "files": [
+        "compute_kernels.c",
+        "vectorization_analysis.c"
+      ],
+      "language": "C99",
+      "optimization_level": "O2"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "simd": "AVX-512 with 2xFMA"
+    },
+    "available_tools": [
+      "perf",
+      "objdump",
+      "LatencyTOP"
+    ],
+    "unknown_characteristics": [
+      "FMA throughput gain",
+      "Accuracy/precision analysis"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Prediction error < 15%",
+        "weight": 0.3
+      },
+      "efficiency": {
+        "requirements": "Implementation complexity assessment",
+        "weight": 0.35
+      },
+      "hypothesis": {
+        "requirements": "Confidence interval specification",
+        "weight": 0.35
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.7,
+      "optimal_theoretical": 0.96,
+      "llm_generic_baseline": 0.42,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "prediction_accuracy": 0.35,
+      "feasibility_assessment": 0.35,
+      "implementation_complexity": 0.3
+    }
+  },
+  {
+    "task_id": "H-012",
+    "name": "Branch Prediction Impact on Compute Kernels",
+    "category": "hypothesize",
+    "difficulty": "advanced",
+    "mission": "Hypothesize branch elimination benefits for numeric kernels",
+    "description": "Compute Optimization Hypothesis 4: Hypothesize branch elimination benefits for numeric kernels. Focus on instruction-level optimization prediction.",
+    "estimated_time_budget": "10 minutes",
+    "codebase": {
+      "files": [
+        "compute_kernels.c",
+        "vectorization_analysis.c"
+      ],
+      "language": "C99",
+      "optimization_level": "O2"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "simd": "AVX-512 with 2xFMA"
+    },
+    "available_tools": [
+      "perf",
+      "objdump",
+      "LatencyTOP"
+    ],
+    "unknown_characteristics": [
+      "Branch misprediction cost",
+      "Branchless implementation complexity"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Prediction error < 15%",
+        "weight": 0.3
+      },
+      "efficiency": {
+        "requirements": "Implementation complexity assessment",
+        "weight": 0.35
+      },
+      "hypothesis": {
+        "requirements": "Confidence interval specification",
+        "weight": 0.35
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.62,
+      "optimal_theoretical": 0.96,
+      "llm_generic_baseline": 0.42,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "prediction_accuracy": 0.35,
+      "feasibility_assessment": 0.35,
+      "implementation_complexity": 0.3
+    }
+  },
+  {
+    "task_id": "H-013",
+    "name": "Instruction-Level Parallelism Opportunity Analysis",
+    "category": "hypothesize",
+    "difficulty": "expert",
+    "mission": "Assess ILP extraction potential in sequential code",
+    "description": "Compute Optimization Hypothesis 5: Assess ILP extraction potential in sequential code. Focus on instruction-level optimization prediction.",
+    "estimated_time_budget": "10 minutes",
+    "codebase": {
+      "files": [
+        "compute_kernels.c",
+        "vectorization_analysis.c"
+      ],
+      "language": "C99",
+      "optimization_level": "O2"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "simd": "AVX-512 with 2xFMA"
+    },
+    "available_tools": [
+      "perf",
+      "objdump",
+      "LatencyTOP"
+    ],
+    "unknown_characteristics": [
+      "Dependency chain reduction",
+      "Out-of-order execution utilization"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Prediction error < 15%",
+        "weight": 0.3
+      },
+      "efficiency": {
+        "requirements": "Implementation complexity assessment",
+        "weight": 0.35
+      },
+      "hypothesis": {
+        "requirements": "Confidence interval specification",
+        "weight": 0.35
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.55,
+      "optimal_theoretical": 0.96,
+      "llm_generic_baseline": 0.42,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "prediction_accuracy": 0.35,
+      "feasibility_assessment": 0.35,
+      "implementation_complexity": 0.3
+    }
+  },
+  {
+    "task_id": "H-014",
+    "name": "Software Pipelining Feasibility Assessment",
+    "category": "hypothesize",
+    "difficulty": "expert",
+    "mission": "Evaluate software pipelining vs traditional loop optimization",
+    "description": "Compute Optimization Hypothesis 6: Evaluate software pipelining vs traditional loop optimization. Focus on instruction-level optimization prediction.",
+    "estimated_time_budget": "10 minutes",
+    "codebase": {
+      "files": [
+        "compute_kernels.c",
+        "vectorization_analysis.c"
+      ],
+      "language": "C99",
+      "optimization_level": "O2"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "simd": "AVX-512 with 2xFMA"
+    },
+    "available_tools": [
+      "perf",
+      "objdump",
+      "LatencyTOP"
+    ],
+    "unknown_characteristics": [
+      "Pipelining stage count",
+      "Register allocation complexity"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Prediction error < 15%",
+        "weight": 0.3
+      },
+      "efficiency": {
+        "requirements": "Implementation complexity assessment",
+        "weight": 0.35
+      },
+      "hypothesis": {
+        "requirements": "Confidence interval specification",
+        "weight": 0.35
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.48,
+      "optimal_theoretical": 0.96,
+      "llm_generic_baseline": 0.42,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "prediction_accuracy": 0.35,
+      "feasibility_assessment": 0.35,
+      "implementation_complexity": 0.3
+    }
+  },
+  {
+    "task_id": "H-015",
+    "name": "OpenMP Parallelization Speedup Prediction",
+    "category": "hypothesize",
+    "difficulty": "intermediate",
+    "mission": "Predict OpenMP parallel scaling for different thread counts",
+    "description": "Parallel Optimization Hypothesis 1: Predict OpenMP parallel scaling for different thread counts. Focus on concurrency and scaling prediction.",
+    "estimated_time_budget": "15 minutes",
+    "codebase": {
+      "files": [
+        "parallel_benchmarks.c",
+        "scaling_analysis.c"
+      ],
+      "language": "C99",
+      "optimization_level": "O2",
+      "threads": "OpenMP 4.5"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "cores": "64 threads total",
+      "sockets": "2x Intel Xeon"
+    },
+    "available_tools": [
+      "perf",
+      "LIKWID",
+      "VTune thread analyzer"
+    ],
+    "unknown_characteristics": [
+      "Parallel efficiency degradation",
+      "Optimal thread count"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Scaling prediction accuracy > 80%",
+        "weight": 0.3
+      },
+      "efficiency": {
+        "requirements": "Thread count optimization",
+        "weight": 0.35
+      },
+      "hypothesis": {
+        "requirements": "Scaling model specification",
+        "weight": 0.35
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.75,
+      "optimal_theoretical": 0.95,
+      "llm_generic_baseline": 0.4,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "scaling_prediction": 0.4,
+      "feasibility_assessment": 0.3,
+      "implementation_complexity": 0.3
+    }
+  },
+  {
+    "task_id": "H-016",
+    "name": "Thread Affinity Impact Assessment",
+    "category": "hypothesize",
+    "difficulty": "advanced",
+    "mission": "Hypothesize benefit of thread affinity and NUMA binding",
+    "description": "Parallel Optimization Hypothesis 2: Hypothesize benefit of thread affinity and NUMA binding. Focus on concurrency and scaling prediction.",
+    "estimated_time_budget": "15 minutes",
+    "codebase": {
+      "files": [
+        "parallel_benchmarks.c",
+        "scaling_analysis.c"
+      ],
+      "language": "C99",
+      "optimization_level": "O2",
+      "threads": "OpenMP 4.5"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "cores": "64 threads total",
+      "sockets": "2x Intel Xeon"
+    },
+    "available_tools": [
+      "perf",
+      "LIKWID",
+      "VTune thread analyzer"
+    ],
+    "unknown_characteristics": [
+      "Affinity speedup factor",
+      "Migration cost reduction"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Scaling prediction accuracy > 80%",
+        "weight": 0.3
+      },
+      "efficiency": {
+        "requirements": "Thread count optimization",
+        "weight": 0.35
+      },
+      "hypothesis": {
+        "requirements": "Scaling model specification",
+        "weight": 0.35
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.68,
+      "optimal_theoretical": 0.95,
+      "llm_generic_baseline": 0.4,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "scaling_prediction": 0.4,
+      "feasibility_assessment": 0.3,
+      "implementation_complexity": 0.3
+    }
+  },
+  {
+    "task_id": "H-017",
+    "name": "Task-Based vs Loop-Based Parallelization",
+    "category": "hypothesize",
+    "difficulty": "advanced",
+    "mission": "Assess task parallelism vs loop parallelism tradeoffs",
+    "description": "Parallel Optimization Hypothesis 3: Assess task parallelism vs loop parallelism tradeoffs. Focus on concurrency and scaling prediction.",
+    "estimated_time_budget": "15 minutes",
+    "codebase": {
+      "files": [
+        "parallel_benchmarks.c",
+        "scaling_analysis.c"
+      ],
+      "language": "C99",
+      "optimization_level": "O2",
+      "threads": "OpenMP 4.5"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "cores": "64 threads total",
+      "sockets": "2x Intel Xeon"
+    },
+    "available_tools": [
+      "perf",
+      "LIKWID",
+      "VTune thread analyzer"
+    ],
+    "unknown_characteristics": [
+      "Task granularity optimization",
+      "Load balancing analysis"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Scaling prediction accuracy > 80%",
+        "weight": 0.3
+      },
+      "efficiency": {
+        "requirements": "Thread count optimization",
+        "weight": 0.35
+      },
+      "hypothesis": {
+        "requirements": "Scaling model specification",
+        "weight": 0.35
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.62,
+      "optimal_theoretical": 0.95,
+      "llm_generic_baseline": 0.4,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "scaling_prediction": 0.4,
+      "feasibility_assessment": 0.3,
+      "implementation_complexity": 0.3
+    }
+  },
+  {
+    "task_id": "H-018",
+    "name": "GPU Offloading Feasibility Hypothesis",
+    "category": "hypothesize",
+    "difficulty": "expert",
+    "mission": "Evaluate GPU offloading benefits vs CPU optimization",
+    "description": "Parallel Optimization Hypothesis 4: Evaluate GPU offloading benefits vs CPU optimization. Focus on concurrency and scaling prediction.",
+    "estimated_time_budget": "15 minutes",
+    "codebase": {
+      "files": [
+        "parallel_benchmarks.c",
+        "scaling_analysis.c"
+      ],
+      "language": "C99",
+      "optimization_level": "O2",
+      "threads": "OpenMP 4.5"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "cores": "64 threads total",
+      "sockets": "2x Intel Xeon"
+    },
+    "available_tools": [
+      "perf",
+      "LIKWID",
+      "VTune thread analyzer"
+    ],
+    "unknown_characteristics": [
+      "PCIe transfer overhead",
+      "GPU compute capability"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Scaling prediction accuracy > 80%",
+        "weight": 0.3
+      },
+      "efficiency": {
+        "requirements": "Thread count optimization",
+        "weight": 0.35
+      },
+      "hypothesis": {
+        "requirements": "Scaling model specification",
+        "weight": 0.35
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.55,
+      "optimal_theoretical": 0.95,
+      "llm_generic_baseline": 0.4,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "scaling_prediction": 0.4,
+      "feasibility_assessment": 0.3,
+      "implementation_complexity": 0.3
+    }
+  },
+  {
+    "task_id": "H-019",
+    "name": "Lock Step SIMD vs MIMD Parallelism",
+    "category": "hypothesize",
+    "difficulty": "advanced",
+    "mission": "Assess vector parallelism vs thread parallelism effectiveness",
+    "description": "Parallel Optimization Hypothesis 5: Assess vector parallelism vs thread parallelism effectiveness. Focus on concurrency and scaling prediction.",
+    "estimated_time_budget": "15 minutes",
+    "codebase": {
+      "files": [
+        "parallel_benchmarks.c",
+        "scaling_analysis.c"
+      ],
+      "language": "C99",
+      "optimization_level": "O2",
+      "threads": "OpenMP 4.5"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "cores": "64 threads total",
+      "sockets": "2x Intel Xeon"
+    },
+    "available_tools": [
+      "perf",
+      "LIKWID",
+      "VTune thread analyzer"
+    ],
+    "unknown_characteristics": [
+      "SIMD efficiency ceiling",
+      "Thread parallel scalability"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Scaling prediction accuracy > 80%",
+        "weight": 0.3
+      },
+      "efficiency": {
+        "requirements": "Thread count optimization",
+        "weight": 0.35
+      },
+      "hypothesis": {
+        "requirements": "Scaling model specification",
+        "weight": 0.35
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.58,
+      "optimal_theoretical": 0.95,
+      "llm_generic_baseline": 0.4,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "scaling_prediction": 0.4,
+      "feasibility_assessment": 0.3,
+      "implementation_complexity": 0.3
+    }
+  },
+  {
+    "task_id": "H-020",
+    "name": "Implicit vs Explicit Parallelization Strategy",
+    "category": "hypothesize",
+    "difficulty": "intermediate",
+    "mission": "Compare compiler auto-parallelization vs explicit threading",
+    "description": "Parallel Optimization Hypothesis 6: Compare compiler auto-parallelization vs explicit threading. Focus on concurrency and scaling prediction.",
+    "estimated_time_budget": "15 minutes",
+    "codebase": {
+      "files": [
+        "parallel_benchmarks.c",
+        "scaling_analysis.c"
+      ],
+      "language": "C99",
+      "optimization_level": "O2",
+      "threads": "OpenMP 4.5"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "cores": "64 threads total",
+      "sockets": "2x Intel Xeon"
+    },
+    "available_tools": [
+      "perf",
+      "LIKWID",
+      "VTune thread analyzer"
+    ],
+    "unknown_characteristics": [
+      "Compiler parallelization effectiveness",
+      "Manual tuning complexity"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Scaling prediction accuracy > 80%",
+        "weight": 0.3
+      },
+      "efficiency": {
+        "requirements": "Thread count optimization",
+        "weight": 0.35
+      },
+      "hypothesis": {
+        "requirements": "Scaling model specification",
+        "weight": 0.35
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.65,
+      "optimal_theoretical": 0.95,
+      "llm_generic_baseline": 0.4,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "scaling_prediction": 0.4,
+      "feasibility_assessment": 0.3,
+      "implementation_complexity": 0.3
+    }
+  },
+  {
+    "task_id": "EX-001",
+    "name": "Matrix Multiplication Parallelization",
+    "category": "execute",
+    "difficulty": "intermediate",
+    "mission": "Parallelize naive matrix multiplication with optimal thread blocking",
+    "description": "Parallelization Task 1: Parallelize naive matrix multiplication with optimal thread blocking. Convert serial implementation to parallel version.",
+    "estimated_time_budget": "25 minutes",
+    "codebase": {
+      "files": [
+        "parallel_1.c",
+        "original_serial.c"
+      ],
+      "language": "C99",
+      "parallelization": "OpenMP 4.5 / MPI 4.1",
+      "optimization_level": "O2"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "cores": "64 threads available",
+      "memory": "384GB DDR4"
+    },
+    "available_tools": [
+      "OpenMP",
+      "MPI",
+      "LIKWID",
+      "perf",
+      "VTune"
+    ],
+    "unknown_characteristics": [
+      "O(n³) serial GEMM",
+      "Optimal parallelization strategy",
+      "Load balancing challenges",
+      "Synchronization overhead"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Numerical accuracy > 99.9%",
+        "weight": 0.3
+      },
+      "efficiency": {
+        "requirements": "Parallel efficiency > 70%",
+        "weight": 0.4
+      },
+      "adaptation": {
+        "requirements": "Scalability to target cores",
+        "weight": 0.3
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.85,
+      "optimal_theoretical": 0.95,
+      "llm_generic_baseline": 0.45,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "adaptation_speed": 0.4,
+      "scaling_efficiency": 0.35,
+      "correctness_preservation": 0.25
+    }
+  },
+  {
+    "task_id": "EX-002",
+    "name": "Stencil 2D Heat Equation Parallelization",
+    "category": "execute",
+    "difficulty": "intermediate",
+    "mission": "Parallelize 2D finite difference heat equation solver",
+    "description": "Parallelization Task 2: Parallelize 2D finite difference heat equation solver. Convert serial implementation to parallel version.",
+    "estimated_time_budget": "25 minutes",
+    "codebase": {
+      "files": [
+        "parallel_2.c",
+        "original_serial.c"
+      ],
+      "language": "C99",
+      "parallelization": "OpenMP 4.5 / MPI 4.1",
+      "optimization_level": "O2"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "cores": "64 threads available",
+      "memory": "384GB DDR4"
+    },
+    "available_tools": [
+      "OpenMP",
+      "MPI",
+      "LIKWID",
+      "perf",
+      "VTune"
+    ],
+    "unknown_characteristics": [
+      "Serial stencil computation",
+      "Optimal parallelization strategy",
+      "Load balancing challenges",
+      "Synchronization overhead"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Numerical accuracy > 99.9%",
+        "weight": 0.3
+      },
+      "efficiency": {
+        "requirements": "Parallel efficiency > 70%",
+        "weight": 0.4
+      },
+      "adaptation": {
+        "requirements": "Scalability to target cores",
+        "weight": 0.3
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.8,
+      "optimal_theoretical": 0.95,
+      "llm_generic_baseline": 0.45,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "adaptation_speed": 0.4,
+      "scaling_efficiency": 0.35,
+      "correctness_preservation": 0.25
+    }
+  },
+  {
+    "task_id": "EX-003",
+    "name": "N-Body Simulation Parallelization",
+    "category": "execute",
+    "difficulty": "advanced",
+    "mission": "Parallelize O(n²) pairwise particle interactions",
+    "description": "Parallelization Task 3: Parallelize O(n²) pairwise particle interactions. Convert serial implementation to parallel version.",
+    "estimated_time_budget": "25 minutes",
+    "codebase": {
+      "files": [
+        "parallel_3.c",
+        "original_serial.c"
+      ],
+      "language": "C99",
+      "parallelization": "OpenMP 4.5 / MPI 4.1",
+      "optimization_level": "O2"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "cores": "64 threads available",
+      "memory": "384GB DDR4"
+    },
+    "available_tools": [
+      "OpenMP",
+      "MPI",
+      "LIKWID",
+      "perf",
+      "VTune"
+    ],
+    "unknown_characteristics": [
+      "Serial n-body for loop",
+      "Optimal parallelization strategy",
+      "Load balancing challenges",
+      "Synchronization overhead"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Numerical accuracy > 99.9%",
+        "weight": 0.3
+      },
+      "efficiency": {
+        "requirements": "Parallel efficiency > 70%",
+        "weight": 0.4
+      },
+      "adaptation": {
+        "requirements": "Scalability to target cores",
+        "weight": 0.3
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.78,
+      "optimal_theoretical": 0.95,
+      "llm_generic_baseline": 0.45,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "adaptation_speed": 0.4,
+      "scaling_efficiency": 0.35,
+      "correctness_preservation": 0.25
+    }
+  },
+  {
+    "task_id": "EX-004",
+    "name": "FFT 1D Parallelization",
+    "category": "execute",
+    "difficulty": "advanced",
+    "mission": "Parallelize 1D FFT with data distribution",
+    "description": "Parallelization Task 4: Parallelize 1D FFT with data distribution. Convert serial implementation to parallel version.",
+    "estimated_time_budget": "25 minutes",
+    "codebase": {
+      "files": [
+        "parallel_4.c",
+        "original_serial.c"
+      ],
+      "language": "C99",
+      "parallelization": "OpenMP 4.5 / MPI 4.1",
+      "optimization_level": "O2"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "cores": "64 threads available",
+      "memory": "384GB DDR4"
+    },
+    "available_tools": [
+      "OpenMP",
+      "MPI",
+      "LIKWID",
+      "perf",
+      "VTune"
+    ],
+    "unknown_characteristics": [
+      "Serial FFTW implementation",
+      "Optimal parallelization strategy",
+      "Load balancing challenges",
+      "Synchronization overhead"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Numerical accuracy > 99.9%",
+        "weight": 0.3
+      },
+      "efficiency": {
+        "requirements": "Parallel efficiency > 70%",
+        "weight": 0.4
+      },
+      "adaptation": {
+        "requirements": "Scalability to target cores",
+        "weight": 0.3
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.75,
+      "optimal_theoretical": 0.95,
+      "llm_generic_baseline": 0.45,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "adaptation_speed": 0.4,
+      "scaling_efficiency": 0.35,
+      "correctness_preservation": 0.25
+    }
+  },
+  {
+    "task_id": "EX-005",
+    "name": "Monte Carlo Simulation Parallelization",
+    "category": "execute",
+    "difficulty": "elementary",
+    "mission": "Parallelize Monte Carlo random sampling",
+    "description": "Parallelization Task 5: Parallelize Monte Carlo random sampling. Convert serial implementation to parallel version.",
+    "estimated_time_budget": "25 minutes",
+    "codebase": {
+      "files": [
+        "parallel_5.c",
+        "original_serial.c"
+      ],
+      "language": "C99",
+      "parallelization": "OpenMP 4.5 / MPI 4.1",
+      "optimization_level": "O2"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "cores": "64 threads available",
+      "memory": "384GB DDR4"
+    },
+    "available_tools": [
+      "OpenMP",
+      "MPI",
+      "LIKWID",
+      "perf",
+      "VTune"
+    ],
+    "unknown_characteristics": [
+      "Serial Monte Carlo worker",
+      "Optimal parallelization strategy",
+      "Load balancing challenges",
+      "Synchronization overhead"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Numerical accuracy > 99.9%",
+        "weight": 0.3
+      },
+      "efficiency": {
+        "requirements": "Parallel efficiency > 70%",
+        "weight": 0.4
+      },
+      "adaptation": {
+        "requirements": "Scalability to target cores",
+        "weight": 0.3
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.92,
+      "optimal_theoretical": 0.95,
+      "llm_generic_baseline": 0.45,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "adaptation_speed": 0.4,
+      "scaling_efficiency": 0.35,
+      "correctness_preservation": 0.25
+    }
+  },
+  {
+    "task_id": "EX-006",
+    "name": "Graph Traversal BFS Parallelization",
+    "category": "execute",
+    "difficulty": "expert",
+    "mission": "Parallelize breadth-first search graph traversal",
+    "description": "Parallelization Task 6: Parallelize breadth-first search graph traversal. Convert serial implementation to parallel version.",
+    "estimated_time_budget": "25 minutes",
+    "codebase": {
+      "files": [
+        "parallel_6.c",
+        "original_serial.c"
+      ],
+      "language": "C99",
+      "parallelization": "OpenMP 4.5 / MPI 4.1",
+      "optimization_level": "O2"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "cores": "64 threads available",
+      "memory": "384GB DDR4"
+    },
+    "available_tools": [
+      "OpenMP",
+      "MPI",
+      "LIKWID",
+      "perf",
+      "VTune"
+    ],
+    "unknown_characteristics": [
+      "Serial BFS queue-based traversal",
+      "Optimal parallelization strategy",
+      "Load balancing challenges",
+      "Synchronization overhead"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Numerical accuracy > 99.9%",
+        "weight": 0.3
+      },
+      "efficiency": {
+        "requirements": "Parallel efficiency > 70%",
+        "weight": 0.4
+      },
+      "adaptation": {
+        "requirements": "Scalability to target cores",
+        "weight": 0.3
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.62,
+      "optimal_theoretical": 0.95,
+      "llm_generic_baseline": 0.45,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "adaptation_speed": 0.4,
+      "scaling_efficiency": 0.35,
+      "correctness_preservation": 0.25
+    }
+  },
+  {
+    "task_id": "EX-007",
+    "name": "Decision Tree Training Parallelization",
+    "category": "execute",
+    "difficulty": "advanced",
+    "mission": "Parallelize decision tree building and evaluation",
+    "description": "Parallelization Task 7: Parallelize decision tree building and evaluation. Convert serial implementation to parallel version.",
+    "estimated_time_budget": "25 minutes",
+    "codebase": {
+      "files": [
+        "parallel_7.c",
+        "original_serial.c"
+      ],
+      "language": "C99",
+      "parallelization": "OpenMP 4.5 / MPI 4.1",
+      "optimization_level": "O2"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "cores": "64 threads available",
+      "memory": "384GB DDR4"
+    },
+    "available_tools": [
+      "OpenMP",
+      "MPI",
+      "LIKWID",
+      "perf",
+      "VTune"
+    ],
+    "unknown_characteristics": [
+      "Serial recursive tree induction",
+      "Optimal parallelization strategy",
+      "Load balancing challenges",
+      "Synchronization overhead"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Numerical accuracy > 99.9%",
+        "weight": 0.3
+      },
+      "efficiency": {
+        "requirements": "Parallel efficiency > 70%",
+        "weight": 0.4
+      },
+      "adaptation": {
+        "requirements": "Scalability to target cores",
+        "weight": 0.3
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.68,
+      "optimal_theoretical": 0.95,
+      "llm_generic_baseline": 0.45,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "adaptation_speed": 0.4,
+      "scaling_efficiency": 0.35,
+      "correctness_preservation": 0.25
+    }
+  },
+  {
+    "task_id": "EX-008",
+    "name": "Image Processing Pipeline Parallelization",
+    "category": "execute",
+    "difficulty": "intermediate",
+    "mission": "Parallelize multi-stage image processing pipeline",
+    "description": "Parallelization Task 8: Parallelize multi-stage image processing pipeline. Convert serial implementation to parallel version.",
+    "estimated_time_budget": "25 minutes",
+    "codebase": {
+      "files": [
+        "parallel_8.c",
+        "original_serial.c"
+      ],
+      "language": "C99",
+      "parallelization": "OpenMP 4.5 / MPI 4.1",
+      "optimization_level": "O2"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "cores": "64 threads available",
+      "memory": "384GB DDR4"
+    },
+    "available_tools": [
+      "OpenMP",
+      "MPI",
+      "LIKWID",
+      "perf",
+      "VTune"
+    ],
+    "unknown_characteristics": [
+      "Serial stage-by-stage processing",
+      "Optimal parallelization strategy",
+      "Load balancing challenges",
+      "Synchronization overhead"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Numerical accuracy > 99.9%",
+        "weight": 0.3
+      },
+      "efficiency": {
+        "requirements": "Parallel efficiency > 70%",
+        "weight": 0.4
+      },
+      "adaptation": {
+        "requirements": "Scalability to target cores",
+        "weight": 0.3
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.75,
+      "optimal_theoretical": 0.95,
+      "llm_generic_baseline": 0.45,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "adaptation_speed": 0.4,
+      "scaling_efficiency": 0.35,
+      "correctness_preservation": 0.25
+    }
+  },
+  {
+    "task_id": "EX-009",
+    "name": "Sparse Matrix-Vector Multiplication Parallelization",
+    "category": "execute",
+    "difficulty": "advanced",
+    "mission": "Parallelize sparse matrix-vector multiplication",
+    "description": "Parallelization Task 9: Parallelize sparse matrix-vector multiplication. Convert serial implementation to parallel version.",
+    "estimated_time_budget": "25 minutes",
+    "codebase": {
+      "files": [
+        "parallel_9.c",
+        "original_serial.c"
+      ],
+      "language": "C99",
+      "parallelization": "OpenMP 4.5 / MPI 4.1",
+      "optimization_level": "O2"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "cores": "64 threads available",
+      "memory": "384GB DDR4"
+    },
+    "available_tools": [
+      "OpenMP",
+      "MPI",
+      "LIKWID",
+      "perf",
+      "VTune"
+    ],
+    "unknown_characteristics": [
+      "Serial CSR SpMV",
+      "Optimal parallelization strategy",
+      "Load balancing challenges",
+      "Synchronization overhead"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Numerical accuracy > 99.9%",
+        "weight": 0.3
+      },
+      "efficiency": {
+        "requirements": "Parallel efficiency > 70%",
+        "weight": 0.4
+      },
+      "adaptation": {
+        "requirements": "Scalability to target cores",
+        "weight": 0.3
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.7,
+      "optimal_theoretical": 0.95,
+      "llm_generic_baseline": 0.45,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "adaptation_speed": 0.4,
+      "scaling_efficiency": 0.35,
+      "correctness_preservation": 0.25
+    }
+  },
+  {
+    "task_id": "EX-010",
+    "name": "Dynamic Programming Knapsack Parallelization",
+    "category": "execute",
+    "difficulty": "expert",
+    "mission": "Parallelize dynamic programming knapsack solver",
+    "description": "Parallelization Task 10: Parallelize dynamic programming knapsack solver. Convert serial implementation to parallel version.",
+    "estimated_time_budget": "25 minutes",
+    "codebase": {
+      "files": [
+        "parallel_10.c",
+        "original_serial.c"
+      ],
+      "language": "C99",
+      "parallelization": "OpenMP 4.5 / MPI 4.1",
+      "optimization_level": "O2"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "cores": "64 threads available",
+      "memory": "384GB DDR4"
+    },
+    "available_tools": [
+      "OpenMP",
+      "MPI",
+      "LIKWID",
+      "perf",
+      "VTune"
+    ],
+    "unknown_characteristics": [
+      "Serial DP table filling",
+      "Optimal parallelization strategy",
+      "Load balancing challenges",
+      "Synchronization overhead"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Numerical accuracy > 99.9%",
+        "weight": 0.3
+      },
+      "efficiency": {
+        "requirements": "Parallel efficiency > 70%",
+        "weight": 0.4
+      },
+      "adaptation": {
+        "requirements": "Scalability to target cores",
+        "weight": 0.3
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.55,
+      "optimal_theoretical": 0.95,
+      "llm_generic_baseline": 0.45,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "adaptation_speed": 0.4,
+      "scaling_efficiency": 0.35,
+      "correctness_preservation": 0.25
+    }
+  },
+  {
+    "task_id": "EX-011",
+    "name": "Linear System Solver Parallelization",
+    "category": "execute",
+    "difficulty": "expert",
+    "mission": "Parallelize dense linear system (Gaussian elimination)",
+    "description": "Parallelization Task 11: Parallelize dense linear system (Gaussian elimination). Convert serial implementation to parallel version.",
+    "estimated_time_budget": "25 minutes",
+    "codebase": {
+      "files": [
+        "parallel_11.c",
+        "original_serial.c"
+      ],
+      "language": "C99",
+      "parallelization": "OpenMP 4.5 / MPI 4.1",
+      "optimization_level": "O2"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "cores": "64 threads available",
+      "memory": "384GB DDR4"
+    },
+    "available_tools": [
+      "OpenMP",
+      "MPI",
+      "LIKWID",
+      "perf",
+      "VTune"
+    ],
+    "unknown_characteristics": [
+      "Serial LU decomposition",
+      "Optimal parallelization strategy",
+      "Load balancing challenges",
+      "Synchronization overhead"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Numerical accuracy > 99.9%",
+        "weight": 0.3
+      },
+      "efficiency": {
+        "requirements": "Parallel efficiency > 70%",
+        "weight": 0.4
+      },
+      "adaptation": {
+        "requirements": "Scalability to target cores",
+        "weight": 0.3
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.65,
+      "optimal_theoretical": 0.95,
+      "llm_generic_baseline": 0.45,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "adaptation_speed": 0.4,
+      "scaling_efficiency": 0.35,
+      "correctness_preservation": 0.25
+    }
+  },
+  {
+    "task_id": "EX-012",
+    "name": "3D Stencil LBM Parallelization",
+    "category": "execute",
+    "difficulty": "advanced",
+    "mission": "Parallelize 3D lattice Boltzmann method fluid simulation",
+    "description": "Parallelization Task 12: Parallelize 3D lattice Boltzmann method fluid simulation. Convert serial implementation to parallel version.",
+    "estimated_time_budget": "25 minutes",
+    "codebase": {
+      "files": [
+        "parallel_12.c",
+        "original_serial.c"
+      ],
+      "language": "C99",
+      "parallelization": "OpenMP 4.5 / MPI 4.1",
+      "optimization_level": "O2"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "cores": "64 threads available",
+      "memory": "384GB DDR4"
+    },
+    "available_tools": [
+      "OpenMP",
+      "MPI",
+      "LIKWID",
+      "perf",
+      "VTune"
+    ],
+    "unknown_characteristics": [
+      "Serial 3D LBM computation",
+      "Optimal parallelization strategy",
+      "Load balancing challenges",
+      "Synchronization overhead"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Numerical accuracy > 99.9%",
+        "weight": 0.3
+      },
+      "efficiency": {
+        "requirements": "Parallel efficiency > 70%",
+        "weight": 0.4
+      },
+      "adaptation": {
+        "requirements": "Scalability to target cores",
+        "weight": 0.3
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.72,
+      "optimal_theoretical": 0.95,
+      "llm_generic_baseline": 0.45,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "adaptation_speed": 0.4,
+      "scaling_efficiency": 0.35,
+      "correctness_preservation": 0.25
+    }
+  },
+  {
+    "task_id": "EX-013",
+    "name": "Particle Filter Parallelization",
+    "category": "execute",
+    "difficulty": "intermediate",
+    "mission": "Parallelize particle filter state estimation",
+    "description": "Parallelization Task 13: Parallelize particle filter state estimation. Convert serial implementation to parallel version.",
+    "estimated_time_budget": "25 minutes",
+    "codebase": {
+      "files": [
+        "parallel_13.c",
+        "original_serial.c"
+      ],
+      "language": "C99",
+      "parallelization": "OpenMP 4.5 / MPI 4.1",
+      "optimization_level": "O2"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "cores": "64 threads available",
+      "memory": "384GB DDR4"
+    },
+    "available_tools": [
+      "OpenMP",
+      "MPI",
+      "LIKWID",
+      "perf",
+      "VTune"
+    ],
+    "unknown_characteristics": [
+      "Serial sequential importance sampling",
+      "Optimal parallelization strategy",
+      "Load balancing challenges",
+      "Synchronization overhead"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Numerical accuracy > 99.9%",
+        "weight": 0.3
+      },
+      "efficiency": {
+        "requirements": "Parallel efficiency > 70%",
+        "weight": 0.4
+      },
+      "adaptation": {
+        "requirements": "Scalability to target cores",
+        "weight": 0.3
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.78,
+      "optimal_theoretical": 0.95,
+      "llm_generic_baseline": 0.45,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "adaptation_speed": 0.4,
+      "scaling_efficiency": 0.35,
+      "correctness_preservation": 0.25
+    }
+  },
+  {
+    "task_id": "EX-014",
+    "name": "Neural Network Inference Parallelization",
+    "category": "execute",
+    "difficulty": "intermediate",
+    "mission": "Parallelize neural network inference across cores",
+    "description": "Parallelization Task 14: Parallelize neural network inference across cores. Convert serial implementation to parallel version.",
+    "estimated_time_budget": "25 minutes",
+    "codebase": {
+      "files": [
+        "parallel_14.c",
+        "original_serial.c"
+      ],
+      "language": "C99",
+      "parallelization": "OpenMP 4.5 / MPI 4.1",
+      "optimization_level": "O2"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "cores": "64 threads available",
+      "memory": "384GB DDR4"
+    },
+    "available_tools": [
+      "OpenMP",
+      "MPI",
+      "LIKWID",
+      "perf",
+      "VTune"
+    ],
+    "unknown_characteristics": [
+      "Serial layer-by-layer processing",
+      "Optimal parallelization strategy",
+      "Load balancing challenges",
+      "Synchronization overhead"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Numerical accuracy > 99.9%",
+        "weight": 0.3
+      },
+      "efficiency": {
+        "requirements": "Parallel efficiency > 70%",
+        "weight": 0.4
+      },
+      "adaptation": {
+        "requirements": "Scalability to target cores",
+        "weight": 0.3
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.82,
+      "optimal_theoretical": 0.95,
+      "llm_generic_baseline": 0.45,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "adaptation_speed": 0.4,
+      "scaling_efficiency": 0.35,
+      "correctness_preservation": 0.25
+    }
+  },
+  {
+    "task_id": "EX-015",
+    "name": "Ray Tracing Parallelization",
+    "category": "execute",
+    "difficulty": "elementary",
+    "mission": "Parallelize ray tracing for batch rendering",
+    "description": "Parallelization Task 15: Parallelize ray tracing for batch rendering. Convert serial implementation to parallel version.",
+    "estimated_time_budget": "25 minutes",
+    "codebase": {
+      "files": [
+        "parallel_15.c",
+        "original_serial.c"
+      ],
+      "language": "C99",
+      "parallelization": "OpenMP 4.5 / MPI 4.1",
+      "optimization_level": "O2"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "cores": "64 threads available",
+      "memory": "384GB DDR4"
+    },
+    "available_tools": [
+      "OpenMP",
+      "MPI",
+      "LIKWID",
+      "perf",
+      "VTune"
+    ],
+    "unknown_characteristics": [
+      "Serial per-pixel ray tracing",
+      "Optimal parallelization strategy",
+      "Load balancing challenges",
+      "Synchronization overhead"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Numerical accuracy > 99.9%",
+        "weight": 0.3
+      },
+      "efficiency": {
+        "requirements": "Parallel efficiency > 70%",
+        "weight": 0.4
+      },
+      "adaptation": {
+        "requirements": "Scalability to target cores",
+        "weight": 0.3
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.88,
+      "optimal_theoretical": 0.95,
+      "llm_generic_baseline": 0.45,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "adaptation_speed": 0.4,
+      "scaling_efficiency": 0.35,
+      "correctness_preservation": 0.25
+    }
+  },
+  {
+    "task_id": "EX-016",
+    "name": "Convolutional Network Layer Parallelization",
+    "category": "execute",
+    "difficulty": "intermediate",
+    "mission": "Parallelize CNN convolution layer computation",
+    "description": "Parallelization Task 16: Parallelize CNN convolution layer computation. Convert serial implementation to parallel version.",
+    "estimated_time_budget": "25 minutes",
+    "codebase": {
+      "files": [
+        "parallel_16.c",
+        "original_serial.c"
+      ],
+      "language": "C99",
+      "parallelization": "OpenMP 4.5 / MPI 4.1",
+      "optimization_level": "O2"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "cores": "64 threads available",
+      "memory": "384GB DDR4"
+    },
+    "available_tools": [
+      "OpenMP",
+      "MPI",
+      "LIKWID",
+      "perf",
+      "VTune"
+    ],
+    "unknown_characteristics": [
+      "Serial nested loop convolution",
+      "Optimal parallelization strategy",
+      "Load balancing challenges",
+      "Synchronization overhead"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Numerical accuracy > 99.9%",
+        "weight": 0.3
+      },
+      "efficiency": {
+        "requirements": "Parallel efficiency > 70%",
+        "weight": 0.4
+      },
+      "adaptation": {
+        "requirements": "Scalability to target cores",
+        "weight": 0.3
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.8,
+      "optimal_theoretical": 0.95,
+      "llm_generic_baseline": 0.45,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "adaptation_speed": 0.4,
+      "scaling_efficiency": 0.35,
+      "correctness_preservation": 0.25
+    }
+  },
+  {
+    "task_id": "EX-017",
+    "name": "Recurrent Neural Network Parallelization",
+    "category": "execute",
+    "difficulty": "expert",
+    "mission": "Parallelize RNN sequential processing",
+    "description": "Parallelization Task 17: Parallelize RNN sequential processing. Convert serial implementation to parallel version.",
+    "estimated_time_budget": "25 minutes",
+    "codebase": {
+      "files": [
+        "parallel_17.c",
+        "original_serial.c"
+      ],
+      "language": "C99",
+      "parallelization": "OpenMP 4.5 / MPI 4.1",
+      "optimization_level": "O2"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "cores": "64 threads available",
+      "memory": "384GB DDR4"
+    },
+    "available_tools": [
+      "OpenMP",
+      "MPI",
+      "LIKWID",
+      "perf",
+      "VTune"
+    ],
+    "unknown_characteristics": [
+      "Serial temporal RNN processing",
+      "Optimal parallelization strategy",
+      "Load balancing challenges",
+      "Synchronization overhead"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Numerical accuracy > 99.9%",
+        "weight": 0.3
+      },
+      "efficiency": {
+        "requirements": "Parallel efficiency > 70%",
+        "weight": 0.4
+      },
+      "adaptation": {
+        "requirements": "Scalability to target cores",
+        "weight": 0.3
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.58,
+      "optimal_theoretical": 0.95,
+      "llm_generic_baseline": 0.45,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "adaptation_speed": 0.4,
+      "scaling_efficiency": 0.35,
+      "correctness_preservation": 0.25
+    }
+  },
+  {
+    "task_id": "EX-018",
+    "name": "Database Query Parallelization",
+    "category": "execute",
+    "difficulty": "advanced",
+    "mission": "Parallelize SQL query execution",
+    "description": "Parallelization Task 18: Parallelize SQL query execution. Convert serial implementation to parallel version.",
+    "estimated_time_budget": "25 minutes",
+    "codebase": {
+      "files": [
+        "parallel_18.c",
+        "original_serial.c"
+      ],
+      "language": "C99",
+      "parallelization": "OpenMP 4.5 / MPI 4.1",
+      "optimization_level": "O2"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "cores": "64 threads available",
+      "memory": "384GB DDR4"
+    },
+    "available_tools": [
+      "OpenMP",
+      "MPI",
+      "LIKWID",
+      "perf",
+      "VTune"
+    ],
+    "unknown_characteristics": [
+      "Serial query executor",
+      "Optimal parallelization strategy",
+      "Load balancing challenges",
+      "Synchronization overhead"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Numerical accuracy > 99.9%",
+        "weight": 0.3
+      },
+      "efficiency": {
+        "requirements": "Parallel efficiency > 70%",
+        "weight": 0.4
+      },
+      "adaptation": {
+        "requirements": "Scalability to target cores",
+        "weight": 0.3
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.68,
+      "optimal_theoretical": 0.95,
+      "llm_generic_baseline": 0.45,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "adaptation_speed": 0.4,
+      "scaling_efficiency": 0.35,
+      "correctness_preservation": 0.25
+    }
+  },
+  {
+    "task_id": "EX-019",
+    "name": "String Matching Parallelization",
+    "category": "execute",
+    "difficulty": "intermediate",
+    "mission": "Parallelize pattern matching algorithms",
+    "description": "Parallelization Task 19: Parallelize pattern matching algorithms. Convert serial implementation to parallel version.",
+    "estimated_time_budget": "25 minutes",
+    "codebase": {
+      "files": [
+        "parallel_19.c",
+        "original_serial.c"
+      ],
+      "language": "C99",
+      "parallelization": "OpenMP 4.5 / MPI 4.1",
+      "optimization_level": "O2"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "cores": "64 threads available",
+      "memory": "384GB DDR4"
+    },
+    "available_tools": [
+      "OpenMP",
+      "MPI",
+      "LIKWID",
+      "perf",
+      "VTune"
+    ],
+    "unknown_characteristics": [
+      "Serial string search",
+      "Optimal parallelization strategy",
+      "Load balancing challenges",
+      "Synchronization overhead"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Numerical accuracy > 99.9%",
+        "weight": 0.3
+      },
+      "efficiency": {
+        "requirements": "Parallel efficiency > 70%",
+        "weight": 0.4
+      },
+      "adaptation": {
+        "requirements": "Scalability to target cores",
+        "weight": 0.3
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.72,
+      "optimal_theoretical": 0.95,
+      "llm_generic_baseline": 0.45,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "adaptation_speed": 0.4,
+      "scaling_efficiency": 0.35,
+      "correctness_preservation": 0.25
+    }
+  },
+  {
+    "task_id": "EX-020",
+    "name": "Geometric Computation Parallelization",
+    "category": "execute",
+    "difficulty": "advanced",
+    "mission": "Parallelize geometric algorithm (convex hull, triangulation)",
+    "description": "Parallelization Task 20: Parallelize geometric algorithm (convex hull, triangulation). Convert serial implementation to parallel version.",
+    "estimated_time_budget": "25 minutes",
+    "codebase": {
+      "files": [
+        "parallel_20.c",
+        "original_serial.c"
+      ],
+      "language": "C99",
+      "parallelization": "OpenMP 4.5 / MPI 4.1",
+      "optimization_level": "O2"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "cores": "64 threads available",
+      "memory": "384GB DDR4"
+    },
+    "available_tools": [
+      "OpenMP",
+      "MPI",
+      "LIKWID",
+      "perf",
+      "VTune"
+    ],
+    "unknown_characteristics": [
+      "Serial geometric algorithm",
+      "Optimal parallelization strategy",
+      "Load balancing challenges",
+      "Synchronization overhead"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Numerical accuracy > 99.9%",
+        "weight": 0.3
+      },
+      "efficiency": {
+        "requirements": "Parallel efficiency > 70%",
+        "weight": 0.4
+      },
+      "adaptation": {
+        "requirements": "Scalability to target cores",
+        "weight": 0.3
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.6,
+      "optimal_theoretical": 0.95,
+      "llm_generic_baseline": 0.45,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "adaptation_speed": 0.4,
+      "scaling_efficiency": 0.35,
+      "correctness_preservation": 0.25
+    }
+  },
+  {
+    "task_id": "EX-021",
+    "name": "Combinatorial Optimization Parallelization",
+    "category": "execute",
+    "difficulty": "expert",
+    "mission": "Parallelize traveling salesman solver",
+    "description": "Parallelization Task 21: Parallelize traveling salesman solver. Convert serial implementation to parallel version.",
+    "estimated_time_budget": "25 minutes",
+    "codebase": {
+      "files": [
+        "parallel_21.c",
+        "original_serial.c"
+      ],
+      "language": "C99",
+      "parallelization": "OpenMP 4.5 / MPI 4.1",
+      "optimization_level": "O2"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "cores": "64 threads available",
+      "memory": "384GB DDR4"
+    },
+    "available_tools": [
+      "OpenMP",
+      "MPI",
+      "LIKWID",
+      "perf",
+      "VTune"
+    ],
+    "unknown_characteristics": [
+      "Serial branch-and-bound TSP",
+      "Optimal parallelization strategy",
+      "Load balancing challenges",
+      "Synchronization overhead"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Numerical accuracy > 99.9%",
+        "weight": 0.3
+      },
+      "efficiency": {
+        "requirements": "Parallel efficiency > 70%",
+        "weight": 0.4
+      },
+      "adaptation": {
+        "requirements": "Scalability to target cores",
+        "weight": 0.3
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.52,
+      "optimal_theoretical": 0.95,
+      "llm_generic_baseline": 0.45,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "adaptation_speed": 0.4,
+      "scaling_efficiency": 0.35,
+      "correctness_preservation": 0.25
+    }
+  },
+  {
+    "task_id": "EX-022",
+    "name": "Sorting Algorithm Parallelization",
+    "category": "execute",
+    "difficulty": "elementary",
+    "mission": "Parallelize quicksort/merge sort implementation",
+    "description": "Parallelization Task 22: Parallelize quicksort/merge sort implementation. Convert serial implementation to parallel version.",
+    "estimated_time_budget": "25 minutes",
+    "codebase": {
+      "files": [
+        "parallel_22.c",
+        "original_serial.c"
+      ],
+      "language": "C99",
+      "parallelization": "OpenMP 4.5 / MPI 4.1",
+      "optimization_level": "O2"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "cores": "64 threads available",
+      "memory": "384GB DDR4"
+    },
+    "available_tools": [
+      "OpenMP",
+      "MPI",
+      "LIKWID",
+      "perf",
+      "VTune"
+    ],
+    "unknown_characteristics": [
+      "Serial comparison-based sort",
+      "Optimal parallelization strategy",
+      "Load balancing challenges",
+      "Synchronization overhead"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Numerical accuracy > 99.9%",
+        "weight": 0.3
+      },
+      "efficiency": {
+        "requirements": "Parallel efficiency > 70%",
+        "weight": 0.4
+      },
+      "adaptation": {
+        "requirements": "Scalability to target cores",
+        "weight": 0.3
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.85,
+      "optimal_theoretical": 0.95,
+      "llm_generic_baseline": 0.45,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "adaptation_speed": 0.4,
+      "scaling_efficiency": 0.35,
+      "correctness_preservation": 0.25
+    }
+  },
+  {
+    "task_id": "EX-023",
+    "name": "Hash Compaction Parallelization",
+    "category": "execute",
+    "difficulty": "expert",
+    "mission": "Parallelize hash table insert/lookup operations",
+    "description": "Parallelization Task 23: Parallelize hash table insert/lookup operations. Convert serial implementation to parallel version.",
+    "estimated_time_budget": "25 minutes",
+    "codebase": {
+      "files": [
+        "parallel_23.c",
+        "original_serial.c"
+      ],
+      "language": "C99",
+      "parallelization": "OpenMP 4.5 / MPI 4.1",
+      "optimization_level": "O2"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "cores": "64 threads available",
+      "memory": "384GB DDR4"
+    },
+    "available_tools": [
+      "OpenMP",
+      "MPI",
+      "LIKWID",
+      "perf",
+      "VTune"
+    ],
+    "unknown_characteristics": [
+      "Serial hash chaining",
+      "Optimal parallelization strategy",
+      "Load balancing challenges",
+      "Synchronization overhead"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Numerical accuracy > 99.9%",
+        "weight": 0.3
+      },
+      "efficiency": {
+        "requirements": "Parallel efficiency > 70%",
+        "weight": 0.4
+      },
+      "adaptation": {
+        "requirements": "Scalability to target cores",
+        "weight": 0.3
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.65,
+      "optimal_theoretical": 0.95,
+      "llm_generic_baseline": 0.45,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "adaptation_speed": 0.4,
+      "scaling_efficiency": 0.35,
+      "correctness_preservation": 0.25
+    }
+  },
+  {
+    "task_id": "EX-024",
+    "name": "Tree Search Parallelization",
+    "category": "execute",
+    "difficulty": "advanced",
+    "mission": "Parallelize alpha-beta pruning game tree search",
+    "description": "Parallelization Task 24: Parallelize alpha-beta pruning game tree search. Convert serial implementation to parallel version.",
+    "estimated_time_budget": "25 minutes",
+    "codebase": {
+      "files": [
+        "parallel_24.c",
+        "original_serial.c"
+      ],
+      "language": "C99",
+      "parallelization": "OpenMP 4.5 / MPI 4.1",
+      "optimization_level": "O2"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "cores": "64 threads available",
+      "memory": "384GB DDR4"
+    },
+    "available_tools": [
+      "OpenMP",
+      "MPI",
+      "LIKWID",
+      "perf",
+      "VTune"
+    ],
+    "unknown_characteristics": [
+      "Serial alpha-beta minimax",
+      "Optimal parallelization strategy",
+      "Load balancing challenges",
+      "Synchronization overhead"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Numerical accuracy > 99.9%",
+        "weight": 0.3
+      },
+      "efficiency": {
+        "requirements": "Parallel efficiency > 70%",
+        "weight": 0.4
+      },
+      "adaptation": {
+        "requirements": "Scalability to target cores",
+        "weight": 0.3
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.7,
+      "optimal_theoretical": 0.95,
+      "llm_generic_baseline": 0.45,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "adaptation_speed": 0.4,
+      "scaling_efficiency": 0.35,
+      "correctness_preservation": 0.25
+    }
+  },
+  {
+    "task_id": "EX-025",
+    "name": "Molecular Dynamics Parallelization",
+    "category": "execute",
+    "difficulty": "advanced",
+    "mission": "Parallelize MD force computation and integration",
+    "description": "Parallelization Task 25: Parallelize MD force computation and integration. Convert serial implementation to parallel version.",
+    "estimated_time_budget": "25 minutes",
+    "codebase": {
+      "files": [
+        "parallel_25.c",
+        "original_serial.c"
+      ],
+      "language": "C99",
+      "parallelization": "OpenMP 4.5 / MPI 4.1",
+      "optimization_level": "O2"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "cores": "64 threads available",
+      "memory": "384GB DDR4"
+    },
+    "available_tools": [
+      "OpenMP",
+      "MPI",
+      "LIKWID",
+      "perf",
+      "VTune"
+    ],
+    "unknown_characteristics": [
+      "Serial MD force loop",
+      "Optimal parallelization strategy",
+      "Load balancing challenges",
+      "Synchronization overhead"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Numerical accuracy > 99.9%",
+        "weight": 0.3
+      },
+      "efficiency": {
+        "requirements": "Parallel efficiency > 70%",
+        "weight": 0.4
+      },
+      "adaptation": {
+        "requirements": "Scalability to target cores",
+        "weight": 0.3
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.68,
+      "optimal_theoretical": 0.95,
+      "llm_generic_baseline": 0.45,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "adaptation_speed": 0.4,
+      "scaling_efficiency": 0.35,
+      "correctness_preservation": 0.25
+    }
+  },
+  {
+    "task_id": "EO-001",
+    "name": "AVX Vectorization Matrix Multiplication",
+    "category": "execute",
+    "difficulty": "intermediate",
+    "mission": "Optimize matrix multiplication with AVX-512 intrinsics",
+    "description": "Optimization Task 1: Optimize matrix multiplication with AVX-512 intrinsics. Optimize existing code for local machine performance.",
+    "estimated_time_budget": "20 minutes",
+    "codebase": {
+      "files": [
+        "optimize_1.c",
+        "baseline_original.c"
+      ],
+      "language": "C99",
+      "compiler": "gcc/clang -O2 -mavx512f",
+      "optimization_level": "O2"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "simd": "AVX-512 with 2xFMA",
+      "cache": "LLC: 48MB"
+    },
+    "available_tools": [
+      "GCC",
+      "Clang",
+      "optrecord",
+      "perf",
+      "objdump",
+      "LIKWID"
+    ],
+    "unknown_characteristics": [
+      "O2 compiled GEMM",
+      "Optimization technique effectiveness",
+      "Compiler interaction",
+      "Measurement methodology"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Numerical accuracy > 99.5%",
+        "weight": 0.25
+      },
+      "efficiency": {
+        "requirements": "Speedup vs baseline > 1.5x",
+        "weight": 0.4
+      },
+      "adaptation": {
+        "requirements": "Iterative refinement quality",
+        "weight": 0.35
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.88,
+      "optimal_theoretical": 0.97,
+      "llm_generic_baseline": 0.42,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "adaptation_speed": 0.35,
+      "convergence_quality": 0.4,
+      "correctness_preservation": 0.25
+    }
+  },
+  {
+    "task_id": "EO-002",
+    "name": "Loop Unrolling Vector Operations",
+    "category": "execute",
+    "difficulty": "elementary",
+    "mission": "Apply optimal loop unrolling and vectorization",
+    "description": "Optimization Task 2: Apply optimal loop unrolling and vectorization. Optimize existing code for local machine performance.",
+    "estimated_time_budget": "20 minutes",
+    "codebase": {
+      "files": [
+        "optimize_2.c",
+        "baseline_original.c"
+      ],
+      "language": "C99",
+      "compiler": "gcc/clang -O2 -mavx512f",
+      "optimization_level": "O2"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "simd": "AVX-512 with 2xFMA",
+      "cache": "LLC: 48MB"
+    },
+    "available_tools": [
+      "GCC",
+      "Clang",
+      "optrecord",
+      "perf",
+      "objdump",
+      "LIKWID"
+    ],
+    "unknown_characteristics": [
+      "Simple vector loop",
+      "Optimization technique effectiveness",
+      "Compiler interaction",
+      "Measurement methodology"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Numerical accuracy > 99.5%",
+        "weight": 0.25
+      },
+      "efficiency": {
+        "requirements": "Speedup vs baseline > 1.5x",
+        "weight": 0.4
+      },
+      "adaptation": {
+        "requirements": "Iterative refinement quality",
+        "weight": 0.35
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.82,
+      "optimal_theoretical": 0.97,
+      "llm_generic_baseline": 0.42,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "adaptation_speed": 0.35,
+      "convergence_quality": 0.4,
+      "correctness_preservation": 0.25
+    }
+  },
+  {
+    "task_id": "EO-003",
+    "name": "Cache Blocking Linear Algebra",
+    "category": "execute",
+    "difficulty": "intermediate",
+    "mission": "Optimize cache blocking for dense linear algebra",
+    "description": "Optimization Task 3: Optimize cache blocking for dense linear algebra. Optimize existing code for local machine performance.",
+    "estimated_time_budget": "20 minutes",
+    "codebase": {
+      "files": [
+        "optimize_3.c",
+        "baseline_original.c"
+      ],
+      "language": "C99",
+      "compiler": "gcc/clang -O2 -mavx512f",
+      "optimization_level": "O2"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "simd": "AVX-512 with 2xFMA",
+      "cache": "LLC: 48MB"
+    },
+    "available_tools": [
+      "GCC",
+      "Clang",
+      "optrecord",
+      "perf",
+      "objdump",
+      "LIKWID"
+    ],
+    "unknown_characteristics": [
+      "Cache-oblivious LA",
+      "Optimization technique effectiveness",
+      "Compiler interaction",
+      "Measurement methodology"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Numerical accuracy > 99.5%",
+        "weight": 0.25
+      },
+      "efficiency": {
+        "requirements": "Speedup vs baseline > 1.5x",
+        "weight": 0.4
+      },
+      "adaptation": {
+        "requirements": "Iterative refinement quality",
+        "weight": 0.35
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.85,
+      "optimal_theoretical": 0.97,
+      "llm_generic_baseline": 0.42,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "adaptation_speed": 0.35,
+      "convergence_quality": 0.4,
+      "correctness_preservation": 0.25
+    }
+  },
+  {
+    "task_id": "EO-004",
+    "name": "Memory Access Pattern Optimization",
+    "category": "execute",
+    "difficulty": "advanced",
+    "mission": "Optimize memory access patterns for spatial locality",
+    "description": "Optimization Task 4: Optimize memory access patterns for spatial locality. Optimize existing code for local machine performance.",
+    "estimated_time_budget": "20 minutes",
+    "codebase": {
+      "files": [
+        "optimize_4.c",
+        "baseline_original.c"
+      ],
+      "language": "C99",
+      "compiler": "gcc/clang -O2 -mavx512f",
+      "optimization_level": "O2"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "simd": "AVX-512 with 2xFMA",
+      "cache": "LLC: 48MB"
+    },
+    "available_tools": [
+      "GCC",
+      "Clang",
+      "optrecord",
+      "perf",
+      "objdump",
+      "LIKWID"
+    ],
+    "unknown_characteristics": [
+      "Non-optimized strided access",
+      "Optimization technique effectiveness",
+      "Compiler interaction",
+      "Measurement methodology"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Numerical accuracy > 99.5%",
+        "weight": 0.25
+      },
+      "efficiency": {
+        "requirements": "Speedup vs baseline > 1.5x",
+        "weight": 0.4
+      },
+      "adaptation": {
+        "requirements": "Iterative refinement quality",
+        "weight": 0.35
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.78,
+      "optimal_theoretical": 0.97,
+      "llm_generic_baseline": 0.42,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "adaptation_speed": 0.35,
+      "convergence_quality": 0.4,
+      "correctness_preservation": 0.25
+    }
+  },
+  {
+    "task_id": "EO-005",
+    "name": "FMA Integration Floating Point",
+    "category": "execute",
+    "difficulty": "intermediate",
+    "mission": "Integrate FMA operations for improved throughput",
+    "description": "Optimization Task 5: Integrate FMA operations for improved throughput. Optimize existing code for local machine performance.",
+    "estimated_time_budget": "20 minutes",
+    "codebase": {
+      "files": [
+        "optimize_5.c",
+        "baseline_original.c"
+      ],
+      "language": "C99",
+      "compiler": "gcc/clang -O2 -mavx512f",
+      "optimization_level": "O2"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "simd": "AVX-512 with 2xFMA",
+      "cache": "LLC: 48MB"
+    },
+    "available_tools": [
+      "GCC",
+      "Clang",
+      "optrecord",
+      "perf",
+      "objdump",
+      "LIKWID"
+    ],
+    "unknown_characteristics": [
+      "Separate mul+add operations",
+      "Optimization technique effectiveness",
+      "Compiler interaction",
+      "Measurement methodology"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Numerical accuracy > 99.5%",
+        "weight": 0.25
+      },
+      "efficiency": {
+        "requirements": "Speedup vs baseline > 1.5x",
+        "weight": 0.4
+      },
+      "adaptation": {
+        "requirements": "Iterative refinement quality",
+        "weight": 0.35
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.75,
+      "optimal_theoretical": 0.97,
+      "llm_generic_baseline": 0.42,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "adaptation_speed": 0.35,
+      "convergence_quality": 0.4,
+      "correctness_preservation": 0.25
+    }
+  },
+  {
+    "task_id": "EO-006",
+    "name": "Branch Elimination Logic Optimizer",
+    "category": "execute",
+    "difficulty": "advanced",
+    "mission": "Eliminate conditional branches in numeric kernels",
+    "description": "Optimization Task 6: Eliminate conditional branches in numeric kernels. Optimize existing code for local machine performance.",
+    "estimated_time_budget": "20 minutes",
+    "codebase": {
+      "files": [
+        "optimize_6.c",
+        "baseline_original.c"
+      ],
+      "language": "C99",
+      "compiler": "gcc/clang -O2 -mavx512f",
+      "optimization_level": "O2"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "simd": "AVX-512 with 2xFMA",
+      "cache": "LLC: 48MB"
+    },
+    "available_tools": [
+      "GCC",
+      "Clang",
+      "optrecord",
+      "perf",
+      "objdump",
+      "LIKWID"
+    ],
+    "unknown_characteristics": [
+      "Branch-based conditional logic",
+      "Optimization technique effectiveness",
+      "Compiler interaction",
+      "Measurement methodology"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Numerical accuracy > 99.5%",
+        "weight": 0.25
+      },
+      "efficiency": {
+        "requirements": "Speedup vs baseline > 1.5x",
+        "weight": 0.4
+      },
+      "adaptation": {
+        "requirements": "Iterative refinement quality",
+        "weight": 0.35
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.7,
+      "optimal_theoretical": 0.97,
+      "llm_generic_baseline": 0.42,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "adaptation_speed": 0.35,
+      "convergence_quality": 0.4,
+      "correctness_preservation": 0.25
+    }
+  },
+  {
+    "task_id": "EO-007",
+    "name": "Register Allocation Optimization",
+    "category": "execute",
+    "difficulty": "expert",
+    "mission": "Optimize register usage and reduction in spills",
+    "description": "Optimization Task 7: Optimize register usage and reduction in spills. Optimize existing code for local machine performance.",
+    "estimated_time_budget": "20 minutes",
+    "codebase": {
+      "files": [
+        "optimize_7.c",
+        "baseline_original.c"
+      ],
+      "language": "C99",
+      "compiler": "gcc/clang -O2 -mavx512f",
+      "optimization_level": "O2"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "simd": "AVX-512 with 2xFMA",
+      "cache": "LLC: 48MB"
+    },
+    "available_tools": [
+      "GCC",
+      "Clang",
+      "optrecord",
+      "perf",
+      "objdump",
+      "LIKWID"
+    ],
+    "unknown_characteristics": [
+      "Compiler-register-allocated code",
+      "Optimization technique effectiveness",
+      "Compiler interaction",
+      "Measurement methodology"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Numerical accuracy > 99.5%",
+        "weight": 0.25
+      },
+      "efficiency": {
+        "requirements": "Speedup vs baseline > 1.5x",
+        "weight": 0.4
+      },
+      "adaptation": {
+        "requirements": "Iterative refinement quality",
+        "weight": 0.35
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.68,
+      "optimal_theoretical": 0.97,
+      "llm_generic_baseline": 0.42,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "adaptation_speed": 0.35,
+      "convergence_quality": 0.4,
+      "correctness_preservation": 0.25
+    }
+  },
+  {
+    "task_id": "EO-008",
+    "name": "Software Prefetch Tuning",
+    "category": "execute",
+    "difficulty": "advanced",
+    "mission": "Optimize software prefetch distance and aggressiveness",
+    "description": "Optimization Task 8: Optimize software prefetch distance and aggressiveness. Optimize existing code for local machine performance.",
+    "estimated_time_budget": "20 minutes",
+    "codebase": {
+      "files": [
+        "optimize_8.c",
+        "baseline_original.c"
+      ],
+      "language": "C99",
+      "compiler": "gcc/clang -O2 -mavx512f",
+      "optimization_level": "O2"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "simd": "AVX-512 with 2xFMA",
+      "cache": "LLC: 48MB"
+    },
+    "available_tools": [
+      "GCC",
+      "Clang",
+      "optrecord",
+      "perf",
+      "objdump",
+      "LIKWID"
+    ],
+    "unknown_characteristics": [
+      "No prefetch",
+      "Optimization technique effectiveness",
+      "Compiler interaction",
+      "Measurement methodology"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Numerical accuracy > 99.5%",
+        "weight": 0.25
+      },
+      "efficiency": {
+        "requirements": "Speedup vs baseline > 1.5x",
+        "weight": 0.4
+      },
+      "adaptation": {
+        "requirements": "Iterative refinement quality",
+        "weight": 0.35
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.72,
+      "optimal_theoretical": 0.97,
+      "llm_generic_baseline": 0.42,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "adaptation_speed": 0.35,
+      "convergence_quality": 0.4,
+      "correctness_preservation": 0.25
+    }
+  },
+  {
+    "task_id": "EO-009",
+    "name": "NUMA-Aware Allocation",
+    "category": "execute",
+    "difficulty": "intermediate",
+    "mission": "Implement NUMA-aware memory allocation and binding",
+    "description": "Optimization Task 9: Implement NUMA-aware memory allocation and binding. Optimize existing code for local machine performance.",
+    "estimated_time_budget": "20 minutes",
+    "codebase": {
+      "files": [
+        "optimize_9.c",
+        "baseline_original.c"
+      ],
+      "language": "C99",
+      "compiler": "gcc/clang -O2 -mavx512f",
+      "optimization_level": "O2"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "simd": "AVX-512 with 2xFMA",
+      "cache": "LLC: 48MB"
+    },
+    "available_tools": [
+      "GCC",
+      "Clang",
+      "optrecord",
+      "perf",
+      "objdump",
+      "LIKWID"
+    ],
+    "unknown_characteristics": [
+      "Default allocation",
+      "Optimization technique effectiveness",
+      "Compiler interaction",
+      "Measurement methodology"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Numerical accuracy > 99.5%",
+        "weight": 0.25
+      },
+      "efficiency": {
+        "requirements": "Speedup vs baseline > 1.5x",
+        "weight": 0.4
+      },
+      "adaptation": {
+        "requirements": "Iterative refinement quality",
+        "weight": 0.35
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.8,
+      "optimal_theoretical": 0.97,
+      "llm_generic_baseline": 0.42,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "adaptation_speed": 0.35,
+      "convergence_quality": 0.4,
+      "correctness_preservation": 0.25
+    }
+  },
+  {
+    "task_id": "EO-010",
+    "name": "Streamlined Pipeline Stages",
+    "category": "execute",
+    "difficulty": "expert",
+    "mission": "Optimize pipeline stages for improved throughput",
+    "description": "Optimization Task 10: Optimize pipeline stages for improved throughput. Optimize existing code for local machine performance.",
+    "estimated_time_budget": "20 minutes",
+    "codebase": {
+      "files": [
+        "optimize_10.c",
+        "baseline_original.c"
+      ],
+      "language": "C99",
+      "compiler": "gcc/clang -O2 -mavx512f",
+      "optimization_level": "O2"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "simd": "AVX-512 with 2xFMA",
+      "cache": "LLC: 48MB"
+    },
+    "available_tools": [
+      "GCC",
+      "Clang",
+      "optrecord",
+      "perf",
+      "objdump",
+      "LIKWID"
+    ],
+    "unknown_characteristics": [
+      "Multi-cycle stalls",
+      "Optimization technique effectiveness",
+      "Compiler interaction",
+      "Measurement methodology"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Numerical accuracy > 99.5%",
+        "weight": 0.25
+      },
+      "efficiency": {
+        "requirements": "Speedup vs baseline > 1.5x",
+        "weight": 0.4
+      },
+      "adaptation": {
+        "requirements": "Iterative refinement quality",
+        "weight": 0.35
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.65,
+      "optimal_theoretical": 0.97,
+      "llm_generic_baseline": 0.42,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "adaptation_speed": 0.35,
+      "convergence_quality": 0.4,
+      "correctness_preservation": 0.25
+    }
+  },
+  {
+    "task_id": "EO-011",
+    "name": "SIMD Reduction Optimization",
+    "category": "execute",
+    "difficulty": "advanced",
+    "mission": "Optimize reduction operations with SIMD horizontal reduction",
+    "description": "Optimization Task 11: Optimize reduction operations with SIMD horizontal reduction. Optimize existing code for local machine performance.",
+    "estimated_time_budget": "20 minutes",
+    "codebase": {
+      "files": [
+        "optimize_11.c",
+        "baseline_original.c"
+      ],
+      "language": "C99",
+      "compiler": "gcc/clang -O2 -mavx512f",
+      "optimization_level": "O2"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "simd": "AVX-512 with 2xFMA",
+      "cache": "LLC: 48MB"
+    },
+    "available_tools": [
+      "GCC",
+      "Clang",
+      "optrecord",
+      "perf",
+      "objdump",
+      "LIKWID"
+    ],
+    "unknown_characteristics": [
+      "Sequential reduction",
+      "Optimization technique effectiveness",
+      "Compiler interaction",
+      "Measurement methodology"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Numerical accuracy > 99.5%",
+        "weight": 0.25
+      },
+      "efficiency": {
+        "requirements": "Speedup vs baseline > 1.5x",
+        "weight": 0.4
+      },
+      "adaptation": {
+        "requirements": "Iterative refinement quality",
+        "weight": 0.35
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.78,
+      "optimal_theoretical": 0.97,
+      "llm_generic_baseline": 0.42,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "adaptation_speed": 0.35,
+      "convergence_quality": 0.4,
+      "correctness_preservation": 0.25
+    }
+  },
+  {
+    "task_id": "EO-012",
+    "name": "Instruction Scheduling",
+    "category": "execute",
+    "difficulty": "expert",
+    "mission": "Optimize instruction ordering for pipeline efficiency",
+    "description": "Optimization Task 12: Optimize instruction ordering for pipeline efficiency. Optimize existing code for local machine performance.",
+    "estimated_time_budget": "20 minutes",
+    "codebase": {
+      "files": [
+        "optimize_12.c",
+        "baseline_original.c"
+      ],
+      "language": "C99",
+      "compiler": "gcc/clang -O2 -mavx512f",
+      "optimization_level": "O2"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "simd": "AVX-512 with 2xFMA",
+      "cache": "LLC: 48MB"
+    },
+    "available_tools": [
+      "GCC",
+      "Clang",
+      "optrecord",
+      "perf",
+      "objdump",
+      "LIKWID"
+    ],
+    "unknown_characteristics": [
+      "Compiler-generated schedule",
+      "Optimization technique effectiveness",
+      "Compiler interaction",
+      "Measurement methodology"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Numerical accuracy > 99.5%",
+        "weight": 0.25
+      },
+      "efficiency": {
+        "requirements": "Speedup vs baseline > 1.5x",
+        "weight": 0.4
+      },
+      "adaptation": {
+        "requirements": "Iterative refinement quality",
+        "weight": 0.35
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.62,
+      "optimal_theoretical": 0.97,
+      "llm_generic_baseline": 0.42,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "adaptation_speed": 0.35,
+      "convergence_quality": 0.4,
+      "correctness_preservation": 0.25
+    }
+  },
+  {
+    "task_id": "EO-013",
+    "name": "Memory Layout Transformation",
+    "category": "execute",
+    "difficulty": "advanced",
+    "mission": "Apply optimal data layout (AoS vs SoA vs hybrid)",
+    "description": "Optimization Task 13: Apply optimal data layout (AoS vs SoA vs hybrid). Optimize existing code for local machine performance.",
+    "estimated_time_budget": "20 minutes",
+    "codebase": {
+      "files": [
+        "optimize_13.c",
+        "baseline_original.c"
+      ],
+      "language": "C99",
+      "compiler": "gcc/clang -O2 -mavx512f",
+      "optimization_level": "O2"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "simd": "AVX-512 with 2xFMA",
+      "cache": "LLC: 48MB"
+    },
+    "available_tools": [
+      "GCC",
+      "Clang",
+      "optrecord",
+      "perf",
+      "objdump",
+      "LIKWID"
+    ],
+    "unknown_characteristics": [
+      "Default AoS layout",
+      "Optimization technique effectiveness",
+      "Compiler interaction",
+      "Measurement methodology"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Numerical accuracy > 99.5%",
+        "weight": 0.25
+      },
+      "efficiency": {
+        "requirements": "Speedup vs baseline > 1.5x",
+        "weight": 0.4
+      },
+      "adaptation": {
+        "requirements": "Iterative refinement quality",
+        "weight": 0.35
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.75,
+      "optimal_theoretical": 0.97,
+      "llm_generic_baseline": 0.42,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "adaptation_speed": 0.35,
+      "convergence_quality": 0.4,
+      "correctness_preservation": 0.25
+    }
+  },
+  {
+    "task_id": "EO-014",
+    "name": "Loop Inlining Optimization",
+    "category": "execute",
+    "difficulty": "intermediate",
+    "mission": "Optimize function call overhead through inlining",
+    "description": "Optimization Task 14: Optimize function call overhead through inlining. Optimize existing code for local machine performance.",
+    "estimated_time_budget": "20 minutes",
+    "codebase": {
+      "files": [
+        "optimize_14.c",
+        "baseline_original.c"
+      ],
+      "language": "C99",
+      "compiler": "gcc/clang -O2 -mavx512f",
+      "optimization_level": "O2"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "simd": "AVX-512 with 2xFMA",
+      "cache": "LLC: 48MB"
+    },
+    "available_tools": [
+      "GCC",
+      "Clang",
+      "optrecord",
+      "perf",
+      "objdump",
+      "LIKWID"
+    ],
+    "unknown_characteristics": [
+      "Function call overhead",
+      "Optimization technique effectiveness",
+      "Compiler interaction",
+      "Measurement methodology"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Numerical accuracy > 99.5%",
+        "weight": 0.25
+      },
+      "efficiency": {
+        "requirements": "Speedup vs baseline > 1.5x",
+        "weight": 0.4
+      },
+      "adaptation": {
+        "requirements": "Iterative refinement quality",
+        "weight": 0.35
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.7,
+      "optimal_theoretical": 0.97,
+      "llm_generic_baseline": 0.42,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "adaptation_speed": 0.35,
+      "convergence_quality": 0.4,
+      "correctness_preservation": 0.25
+    }
+  },
+  {
+    "task_id": "EO-015",
+    "name": "Compiler Intrinsic Optimization",
+    "category": "execute",
+    "difficulty": "intermediate",
+    "mission": "Utilize compiler intrinsics for optimal code generation",
+    "description": "Optimization Task 15: Utilize compiler intrinsics for optimal code generation. Optimize existing code for local machine performance.",
+    "estimated_time_budget": "20 minutes",
+    "codebase": {
+      "files": [
+        "optimize_15.c",
+        "baseline_original.c"
+      ],
+      "language": "C99",
+      "compiler": "gcc/clang -O2 -mavx512f",
+      "optimization_level": "O2"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "simd": "AVX-512 with 2xFMA",
+      "cache": "LLC: 48MB"
+    },
+    "available_tools": [
+      "GCC",
+      "Clang",
+      "optrecord",
+      "perf",
+      "objdump",
+      "LIKWID"
+    ],
+    "unknown_characteristics": [
+      "Standard C++ code",
+      "Optimization technique effectiveness",
+      "Compiler interaction",
+      "Measurement methodology"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Numerical accuracy > 99.5%",
+        "weight": 0.25
+      },
+      "efficiency": {
+        "requirements": "Speedup vs baseline > 1.5x",
+        "weight": 0.4
+      },
+      "adaptation": {
+        "requirements": "Iterative refinement quality",
+        "weight": 0.35
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.82,
+      "optimal_theoretical": 0.97,
+      "llm_generic_baseline": 0.42,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "adaptation_speed": 0.35,
+      "convergence_quality": 0.4,
+      "correctness_preservation": 0.25
+    }
+  },
+  {
+    "task_id": "EO-016",
+    "name": "Cache Line Alignment",
+    "category": "execute",
+    "difficulty": "elementary",
+    "mission": "Optimize memory allocation alignment for cache line boundaries",
+    "description": "Optimization Task 16: Optimize memory allocation alignment for cache line boundaries. Optimize existing code for local machine performance.",
+    "estimated_time_budget": "20 minutes",
+    "codebase": {
+      "files": [
+        "optimize_16.c",
+        "baseline_original.c"
+      ],
+      "language": "C99",
+      "compiler": "gcc/clang -O2 -mavx512f",
+      "optimization_level": "O2"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "simd": "AVX-512 with 2xFMA",
+      "cache": "LLC: 48MB"
+    },
+    "available_tools": [
+      "GCC",
+      "Clang",
+      "optrecord",
+      "perf",
+      "objdump",
+      "LIKWID"
+    ],
+    "unknown_characteristics": [
+      "Default alignment",
+      "Optimization technique effectiveness",
+      "Compiler interaction",
+      "Measurement methodology"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Numerical accuracy > 99.5%",
+        "weight": 0.25
+      },
+      "efficiency": {
+        "requirements": "Speedup vs baseline > 1.5x",
+        "weight": 0.4
+      },
+      "adaptation": {
+        "requirements": "Iterative refinement quality",
+        "weight": 0.35
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.75,
+      "optimal_theoretical": 0.97,
+      "llm_generic_baseline": 0.42,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "adaptation_speed": 0.35,
+      "convergence_quality": 0.4,
+      "correctness_preservation": 0.25
+    }
+  },
+  {
+    "task_id": "EO-017",
+    "name": "Misprediction Reduction",
+    "category": "execute",
+    "difficulty": "advanced",
+    "mission": "Reduce branch misprediction through prediction hints",
+    "description": "Optimization Task 17: Reduce branch misprediction through prediction hints. Optimize existing code for local machine performance.",
+    "estimated_time_budget": "20 minutes",
+    "codebase": {
+      "files": [
+        "optimize_17.c",
+        "baseline_original.c"
+      ],
+      "language": "C99",
+      "compiler": "gcc/clang -O2 -mavx512f",
+      "optimization_level": "O2"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "simd": "AVX-512 with 2xFMA",
+      "cache": "LLC: 48MB"
+    },
+    "available_tools": [
+      "GCC",
+      "Clang",
+      "optrecord",
+      "perf",
+      "objdump",
+      "LIKWID"
+    ],
+    "unknown_characteristics": [
+      "Unoptimized branches",
+      "Optimization technique effectiveness",
+      "Compiler interaction",
+      "Measurement methodology"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Numerical accuracy > 99.5%",
+        "weight": 0.25
+      },
+      "efficiency": {
+        "requirements": "Speedup vs baseline > 1.5x",
+        "weight": 0.4
+      },
+      "adaptation": {
+        "requirements": "Iterative refinement quality",
+        "weight": 0.35
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.68,
+      "optimal_theoretical": 0.97,
+      "llm_generic_baseline": 0.42,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "adaptation_speed": 0.35,
+      "convergence_quality": 0.4,
+      "correctness_preservation": 0.25
+    }
+  },
+  {
+    "task_id": "EO-018",
+    "name": "Linear Algebra Solver Optimization",
+    "category": "execute",
+    "difficulty": "advanced",
+    "mission": "Optimize linear system solver (e.g., conjugate gradient)",
+    "description": "Optimization Task 18: Optimize linear system solver (e.g., conjugate gradient). Optimize existing code for local machine performance.",
+    "estimated_time_budget": "20 minutes",
+    "codebase": {
+      "files": [
+        "optimize_18.c",
+        "baseline_original.c"
+      ],
+      "language": "C99",
+      "compiler": "gcc/clang -O2 -mavx512f",
+      "optimization_level": "O2"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "simd": "AVX-512 with 2xFMA",
+      "cache": "LLC: 48MB"
+    },
+    "available_tools": [
+      "GCC",
+      "Clang",
+      "optrecord",
+      "perf",
+      "objdump",
+      "LIKWID"
+    ],
+    "unknown_characteristics": [
+      "Standard CG implementation",
+      "Optimization technique effectiveness",
+      "Compiler interaction",
+      "Measurement methodology"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Numerical accuracy > 99.5%",
+        "weight": 0.25
+      },
+      "efficiency": {
+        "requirements": "Speedup vs baseline > 1.5x",
+        "weight": 0.4
+      },
+      "adaptation": {
+        "requirements": "Iterative refinement quality",
+        "weight": 0.35
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.72,
+      "optimal_theoretical": 0.97,
+      "llm_generic_baseline": 0.42,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "adaptation_speed": 0.35,
+      "convergence_quality": 0.4,
+      "correctness_preservation": 0.25
+    }
+  },
+  {
+    "task_id": "EO-019",
+    "name": "Sparse Matrix Compression",
+    "category": "execute",
+    "difficulty": "expert",
+    "mission": "Optimize sparse matrix representation and computation",
+    "description": "Optimization Task 19: Optimize sparse matrix representation and computation. Optimize existing code for local machine performance.",
+    "estimated_time_budget": "20 minutes",
+    "codebase": {
+      "files": [
+        "optimize_19.c",
+        "baseline_original.c"
+      ],
+      "language": "C99",
+      "compiler": "gcc/clang -O2 -mavx512f",
+      "optimization_level": "O2"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "simd": "AVX-512 with 2xFMA",
+      "cache": "LLC: 48MB"
+    },
+    "available_tools": [
+      "GCC",
+      "Clang",
+      "optrecord",
+      "perf",
+      "objdump",
+      "LIKWID"
+    ],
+    "unknown_characteristics": [
+      "Standard CSR/COO format",
+      "Optimization technique effectiveness",
+      "Compiler interaction",
+      "Measurement methodology"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Numerical accuracy > 99.5%",
+        "weight": 0.25
+      },
+      "efficiency": {
+        "requirements": "Speedup vs baseline > 1.5x",
+        "weight": 0.4
+      },
+      "adaptation": {
+        "requirements": "Iterative refinement quality",
+        "weight": 0.35
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.65,
+      "optimal_theoretical": 0.97,
+      "llm_generic_baseline": 0.42,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "adaptation_speed": 0.35,
+      "convergence_quality": 0.4,
+      "correctness_preservation": 0.25
+    }
+  },
+  {
+    "task_id": "EO-020",
+    "name": "Quantization Speed Optimization",
+    "category": "execute",
+    "difficulty": "intermediate",
+    "mission": "Optimize floating-point quantization operations",
+    "description": "Optimization Task 20: Optimize floating-point quantization operations. Optimize existing code for local machine performance.",
+    "estimated_time_budget": "20 minutes",
+    "codebase": {
+      "files": [
+        "optimize_20.c",
+        "baseline_original.c"
+      ],
+      "language": "C99",
+      "compiler": "gcc/clang -O2 -mavx512f",
+      "optimization_level": "O2"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "simd": "AVX-512 with 2xFMA",
+      "cache": "LLC: 48MB"
+    },
+    "available_tools": [
+      "GCC",
+      "Clang",
+      "optrecord",
+      "perf",
+      "objdump",
+      "LIKWID"
+    ],
+    "unknown_characteristics": [
+      "Standard float32 quantization",
+      "Optimization technique effectiveness",
+      "Compiler interaction",
+      "Measurement methodology"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Numerical accuracy > 99.5%",
+        "weight": 0.25
+      },
+      "efficiency": {
+        "requirements": "Speedup vs baseline > 1.5x",
+        "weight": 0.4
+      },
+      "adaptation": {
+        "requirements": "Iterative refinement quality",
+        "weight": 0.35
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.78,
+      "optimal_theoretical": 0.97,
+      "llm_generic_baseline": 0.42,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "adaptation_speed": 0.35,
+      "convergence_quality": 0.4,
+      "correctness_preservation": 0.25
+    }
+  },
+  {
+    "task_id": "EO-021",
+    "name": "Memory Access Streaming",
+    "category": "execute",
+    "difficulty": "elementary",
+    "mission": "Optimize memory access patterns for streaming workloads",
+    "description": "Optimization Task 21: Optimize memory access patterns for streaming workloads. Optimize existing code for local machine performance.",
+    "estimated_time_budget": "20 minutes",
+    "codebase": {
+      "files": [
+        "optimize_21.c",
+        "baseline_original.c"
+      ],
+      "language": "C99",
+      "compiler": "gcc/clang -O2 -mavx512f",
+      "optimization_level": "O2"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "simd": "AVX-512 with 2xFMA",
+      "cache": "LLC: 48MB"
+    },
+    "available_tools": [
+      "GCC",
+      "Clang",
+      "optrecord",
+      "perf",
+      "objdump",
+      "LIKWID"
+    ],
+    "unknown_characteristics": [
+      "Random access patterns",
+      "Optimization technique effectiveness",
+      "Compiler interaction",
+      "Measurement methodology"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Numerical accuracy > 99.5%",
+        "weight": 0.25
+      },
+      "efficiency": {
+        "requirements": "Speedup vs baseline > 1.5x",
+        "weight": 0.4
+      },
+      "adaptation": {
+        "requirements": "Iterative refinement quality",
+        "weight": 0.35
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.8,
+      "optimal_theoretical": 0.97,
+      "llm_generic_baseline": 0.42,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "adaptation_speed": 0.35,
+      "convergence_quality": 0.4,
+      "correctness_preservation": 0.25
+    }
+  },
+  {
+    "task_id": "EO-022",
+    "name": "Instruction Cache Optimization",
+    "category": "execute",
+    "difficulty": "expert",
+    "mission": "Optimize for instruction cache efficiency and footprint",
+    "description": "Optimization Task 22: Optimize for instruction cache efficiency and footprint. Optimize existing code for local machine performance.",
+    "estimated_time_budget": "20 minutes",
+    "codebase": {
+      "files": [
+        "optimize_22.c",
+        "baseline_original.c"
+      ],
+      "language": "C99",
+      "compiler": "gcc/clang -O2 -mavx512f",
+      "optimization_level": "O2"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "simd": "AVX-512 with 2xFMA",
+      "cache": "LLC: 48MB"
+    },
+    "available_tools": [
+      "GCC",
+      "Clang",
+      "optrecord",
+      "perf",
+      "objdump",
+      "LIKWID"
+    ],
+    "unknown_characteristics": [
+      "Large instruction footprint",
+      "Optimization technique effectiveness",
+      "Compiler interaction",
+      "Measurement methodology"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Numerical accuracy > 99.5%",
+        "weight": 0.25
+      },
+      "efficiency": {
+        "requirements": "Speedup vs baseline > 1.5x",
+        "weight": 0.4
+      },
+      "adaptation": {
+        "requirements": "Iterative refinement quality",
+        "weight": 0.35
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.62,
+      "optimal_theoretical": 0.97,
+      "llm_generic_baseline": 0.42,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "adaptation_speed": 0.35,
+      "convergence_quality": 0.4,
+      "correctness_preservation": 0.25
+    }
+  },
+  {
+    "task_id": "EO-023",
+    "name": "Branch Prediction Tuning",
+    "category": "execute",
+    "difficulty": "advanced",
+    "mission": "Optimize code layout for improved branch prediction",
+    "description": "Optimization Task 23: Optimize code layout for improved branch prediction. Optimize existing code for local machine performance.",
+    "estimated_time_budget": "20 minutes",
+    "codebase": {
+      "files": [
+        "optimize_23.c",
+        "baseline_original.c"
+      ],
+      "language": "C99",
+      "compiler": "gcc/clang -O2 -mavx512f",
+      "optimization_level": "O2"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "simd": "AVX-512 with 2xFMA",
+      "cache": "LLC: 48MB"
+    },
+    "available_tools": [
+      "GCC",
+      "Clang",
+      "optrecord",
+      "perf",
+      "objdump",
+      "LIKWID"
+    ],
+    "unknown_characteristics": [
+      "Suboptimal layout",
+      "Optimization technique effectiveness",
+      "Compiler interaction",
+      "Measurement methodology"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Numerical accuracy > 99.5%",
+        "weight": 0.25
+      },
+      "efficiency": {
+        "requirements": "Speedup vs baseline > 1.5x",
+        "weight": 0.4
+      },
+      "adaptation": {
+        "requirements": "Iterative refinement quality",
+        "weight": 0.35
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.65,
+      "optimal_theoretical": 0.97,
+      "llm_generic_baseline": 0.42,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "adaptation_speed": 0.35,
+      "convergence_quality": 0.4,
+      "correctness_preservation": 0.25
+    }
+  },
+  {
+    "task_id": "EO-024",
+    "name": "Loop Tiling Optimization",
+    "category": "execute",
+    "difficulty": "intermediate",
+    "mission": "Apply optimal multi-dimensional loop tiling",
+    "description": "Optimization Task 24: Apply optimal multi-dimensional loop tiling. Optimize existing code for local machine performance.",
+    "estimated_time_budget": "20 minutes",
+    "codebase": {
+      "files": [
+        "optimize_24.c",
+        "baseline_original.c"
+      ],
+      "language": "C99",
+      "compiler": "gcc/clang -O2 -mavx512f",
+      "optimization_level": "O2"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "simd": "AVX-512 with 2xFMA",
+      "cache": "LLC: 48MB"
+    },
+    "available_tools": [
+      "GCC",
+      "Clang",
+      "optrecord",
+      "perf",
+      "objdump",
+      "LIKWID"
+    ],
+    "unknown_characteristics": [
+      "Untiled nested loops",
+      "Optimization technique effectiveness",
+      "Compiler interaction",
+      "Measurement methodology"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Numerical accuracy > 99.5%",
+        "weight": 0.25
+      },
+      "efficiency": {
+        "requirements": "Speedup vs baseline > 1.5x",
+        "weight": 0.4
+      },
+      "adaptation": {
+        "requirements": "Iterative refinement quality",
+        "weight": 0.35
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.75,
+      "optimal_theoretical": 0.97,
+      "llm_generic_baseline": 0.42,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "adaptation_speed": 0.35,
+      "convergence_quality": 0.4,
+      "correctness_preservation": 0.25
+    }
+  },
+  {
+    "task_id": "EO-025",
+    "name": "Vector Reduction Accumulation",
+    "category": "execute",
+    "difficulty": "advanced",
+    "mission": "Optimize vector accumulator for numerical stability",
+    "description": "Optimization Task 25: Optimize vector accumulator for numerical stability. Optimize existing code for local machine performance.",
+    "estimated_time_budget": "20 minutes",
+    "codebase": {
+      "files": [
+        "optimize_25.c",
+        "baseline_original.c"
+      ],
+      "language": "C99",
+      "compiler": "gcc/clang -O2 -mavx512f",
+      "optimization_level": "O2"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "simd": "AVX-512 with 2xFMA",
+      "cache": "LLC: 48MB"
+    },
+    "available_tools": [
+      "GCC",
+      "Clang",
+      "optrecord",
+      "perf",
+      "objdump",
+      "LIKWID"
+    ],
+    "unknown_characteristics": [
+      "Simple accumulation",
+      "Optimization technique effectiveness",
+      "Compiler interaction",
+      "Measurement methodology"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Numerical accuracy > 99.5%",
+        "weight": 0.25
+      },
+      "efficiency": {
+        "requirements": "Speedup vs baseline > 1.5x",
+        "weight": 0.4
+      },
+      "adaptation": {
+        "requirements": "Iterative refinement quality",
+        "weight": 0.35
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.7,
+      "optimal_theoretical": 0.97,
+      "llm_generic_baseline": 0.42,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "adaptation_speed": 0.35,
+      "convergence_quality": 0.4,
+      "correctness_preservation": 0.25
+    }
+  },
+  {
+    "task_id": "EO-026",
+    "name": "Memory Bandwidth Optimization",
+    "category": "execute",
+    "difficulty": "intermediate",
+    "mission": "Optimize memory bandwidth utilization",
+    "description": "Optimization Task 26: Optimize memory bandwidth utilization. Optimize existing code for local machine performance.",
+    "estimated_time_budget": "20 minutes",
+    "codebase": {
+      "files": [
+        "optimize_26.c",
+        "baseline_original.c"
+      ],
+      "language": "C99",
+      "compiler": "gcc/clang -O2 -mavx512f",
+      "optimization_level": "O2"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "simd": "AVX-512 with 2xFMA",
+      "cache": "LLC: 48MB"
+    },
+    "available_tools": [
+      "GCC",
+      "Clang",
+      "optrecord",
+      "perf",
+      "objdump",
+      "LIKWID"
+    ],
+    "unknown_characteristics": [
+      "Suboptimal memory access",
+      "Optimization technique effectiveness",
+      "Compiler interaction",
+      "Measurement methodology"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Numerical accuracy > 99.5%",
+        "weight": 0.25
+      },
+      "efficiency": {
+        "requirements": "Speedup vs baseline > 1.5x",
+        "weight": 0.4
+      },
+      "adaptation": {
+        "requirements": "Iterative refinement quality",
+        "weight": 0.35
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.82,
+      "optimal_theoretical": 0.97,
+      "llm_generic_baseline": 0.42,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "adaptation_speed": 0.35,
+      "convergence_quality": 0.4,
+      "correctness_preservation": 0.25
+    }
+  },
+  {
+    "task_id": "EO-027",
+    "name": "Pointer Dereferencing Optimization",
+    "category": "execute",
+    "difficulty": "advanced",
+    "mission": "Optimize pointer chasing and indirect addressing",
+    "description": "Optimization Task 27: Optimize pointer chasing and indirect addressing. Optimize existing code for local machine performance.",
+    "estimated_time_budget": "20 minutes",
+    "codebase": {
+      "files": [
+        "optimize_27.c",
+        "baseline_original.c"
+      ],
+      "language": "C99",
+      "compiler": "gcc/clang -O2 -mavx512f",
+      "optimization_level": "O2"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "simd": "AVX-512 with 2xFMA",
+      "cache": "LLC: 48MB"
+    },
+    "available_tools": [
+      "GCC",
+      "Clang",
+      "optrecord",
+      "perf",
+      "objdump",
+      "LIKWID"
+    ],
+    "unknown_characteristics": [
+      "Pointer-heavy code",
+      "Optimization technique effectiveness",
+      "Compiler interaction",
+      "Measurement methodology"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Numerical accuracy > 99.5%",
+        "weight": 0.25
+      },
+      "efficiency": {
+        "requirements": "Speedup vs baseline > 1.5x",
+        "weight": 0.4
+      },
+      "adaptation": {
+        "requirements": "Iterative refinement quality",
+        "weight": 0.35
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.68,
+      "optimal_theoretical": 0.97,
+      "llm_generic_baseline": 0.42,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "adaptation_speed": 0.35,
+      "convergence_quality": 0.4,
+      "correctness_preservation": 0.25
+    }
+  },
+  {
+    "task_id": "EO-028",
+    "name": "Floating Point Precision Optimization",
+    "category": "execute",
+    "difficulty": "intermediate",
+    "mission": "Optimize between float32/float64/float16 for performance vs accuracy",
+    "description": "Optimization Task 28: Optimize between float32/float64/float16 for performance vs accuracy. Optimize existing code for local machine performance.",
+    "estimated_time_budget": "20 minutes",
+    "codebase": {
+      "files": [
+        "optimize_28.c",
+        "baseline_original.c"
+      ],
+      "language": "C99",
+      "compiler": "gcc/clang -O2 -mavx512f",
+      "optimization_level": "O2"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "simd": "AVX-512 with 2xFMA",
+      "cache": "LLC: 48MB"
+    },
+    "available_tools": [
+      "GCC",
+      "Clang",
+      "optrecord",
+      "perf",
+      "objdump",
+      "LIKWID"
+    ],
+    "unknown_characteristics": [
+      "Always float64",
+      "Optimization technique effectiveness",
+      "Compiler interaction",
+      "Measurement methodology"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Numerical accuracy > 99.5%",
+        "weight": 0.25
+      },
+      "efficiency": {
+        "requirements": "Speedup vs baseline > 1.5x",
+        "weight": 0.4
+      },
+      "adaptation": {
+        "requirements": "Iterative refinement quality",
+        "weight": 0.35
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.75,
+      "optimal_theoretical": 0.97,
+      "llm_generic_baseline": 0.42,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "adaptation_speed": 0.35,
+      "convergence_quality": 0.4,
+      "correctness_preservation": 0.25
+    }
+  },
+  {
+    "task_id": "EO-029",
+    "name": "Loop Prefetch Integration",
+    "category": "execute",
+    "difficulty": "advanced",
+    "mission": "Integrate loop prefetch with software prefetch instructions",
+    "description": "Optimization Task 29: Integrate loop prefetch with software prefetch instructions. Optimize existing code for local machine performance.",
+    "estimated_time_budget": "20 minutes",
+    "codebase": {
+      "files": [
+        "optimize_29.c",
+        "baseline_original.c"
+      ],
+      "language": "C99",
+      "compiler": "gcc/clang -O2 -mavx512f",
+      "optimization_level": "O2"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "simd": "AVX-512 with 2xFMA",
+      "cache": "LLC: 48MB"
+    },
+    "available_tools": [
+      "GCC",
+      "Clang",
+      "optrecord",
+      "perf",
+      "objdump",
+      "LIKWID"
+    ],
+    "unknown_characteristics": [
+      "No prefetch",
+      "Optimization technique effectiveness",
+      "Compiler interaction",
+      "Measurement methodology"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Numerical accuracy > 99.5%",
+        "weight": 0.25
+      },
+      "efficiency": {
+        "requirements": "Speedup vs baseline > 1.5x",
+        "weight": 0.4
+      },
+      "adaptation": {
+        "requirements": "Iterative refinement quality",
+        "weight": 0.35
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.72,
+      "optimal_theoretical": 0.97,
+      "llm_generic_baseline": 0.42,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "adaptation_speed": 0.35,
+      "convergence_quality": 0.4,
+      "correctness_preservation": 0.25
+    }
+  },
+  {
+    "task_id": "EO-030",
+    "name": "Compiler Flag Optimization",
+    "category": "execute",
+    "difficulty": "expert",
+    "mission": "Find optimal compiler flags for specific workloads",
+    "description": "Optimization Task 30: Find optimal compiler flags for specific workloads. Optimize existing code for local machine performance.",
+    "estimated_time_budget": "20 minutes",
+    "codebase": {
+      "files": [
+        "optimize_30.c",
+        "baseline_original.c"
+      ],
+      "language": "C99",
+      "compiler": "gcc/clang -O2 -mavx512f",
+      "optimization_level": "O2"
+    },
+    "hardware": {
+      "cpu": "Intel Xeon Gold 6348 @ 2.8GHz",
+      "simd": "AVX-512 with 2xFMA",
+      "cache": "LLC: 48MB"
+    },
+    "available_tools": [
+      "GCC",
+      "Clang",
+      "optrecord",
+      "perf",
+      "objdump",
+      "LIKWID"
+    ],
+    "unknown_characteristics": [
+      "Standard -O2 flag",
+      "Optimization technique effectiveness",
+      "Compiler interaction",
+      "Measurement methodology"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Numerical accuracy > 99.5%",
+        "weight": 0.25
+      },
+      "efficiency": {
+        "requirements": "Speedup vs baseline > 1.5x",
+        "weight": 0.4
+      },
+      "adaptation": {
+        "requirements": "Iterative refinement quality",
+        "weight": 0.35
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.6,
+      "optimal_theoretical": 0.97,
+      "llm_generic_baseline": 0.42,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "adaptation_speed": 0.35,
+      "convergence_quality": 0.4,
+      "correctness_preservation": 0.25
+    }
+  },
+  {
+    "task_id": "G-001",
+    "name": "x86-to-ARM64 SIMD Generalization",
+    "category": "generalize",
+    "difficulty": "expert",
+    "mission": "Transfer AVX-512 vector optimization to ARM SVE",
+    "description": "Generalization Task 1: Transfer AVX-512 vector optimization to ARM SVE. Transfer optimization knowledge across architectures/domains.",
+    "estimated_time_budget": "30 minutes",
+    "codebase": {
+      "files": [
+        "generalize_1_source.c",
+        "target_template.c"
+      ],
+      "languages": [
+        "C99",
+        "assembly as needed"
+      ],
+      "cross_compilation": "Required for multi-arch"
+    },
+    "hardware": {
+      "source_architecture": "x86_64",
+      "target_architecture": "ARM64",
+      "compilers": "GCC+Clang for source, target-specific for target"
+    },
+    "available_tools": [
+      "Cross-compilers",
+      "arch-specific profilers",
+      "simulators"
+    ],
+    "unknown_characteristics": [
+      "x86_64 AVX-512 optimized kernels",
+      "ARM64 SVE implementations",
+      "Architecture-specific constraints",
+      "Cross-arch translation effectiveness"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Functional equivalence > 99.9%",
+        "weight": 0.35
+      },
+      "efficiency": {
+        "requirements": "Performance transfer rate > 50%",
+        "weight": 0.3
+      },
+      "generalization": {
+        "requirements": "Knowledge abstraction quality",
+        "weight": 0.35
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.78,
+      "optimal_theoretical": 0.92,
+      "llm_generic_baseline": 0.35,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "pattern_preservation": 0.35,
+      "adaptation_quality": 0.35,
+      "performance_transfer": 0.3
+    }
+  },
+  {
+    "task_id": "G-002",
+    "name": "CPU-to-GPU Memory Coalescing Transfer",
+    "category": "generalize",
+    "difficulty": "expert",
+    "mission": "Adapt memory coalescing strategies from CPU to GPU",
+    "description": "Generalization Task 2: Adapt memory coalescing strategies from CPU to GPU. Transfer optimization knowledge across architectures/domains.",
+    "estimated_time_budget": "30 minutes",
+    "codebase": {
+      "files": [
+        "generalize_2_source.c",
+        "target_template.c"
+      ],
+      "languages": [
+        "C99",
+        "assembly as needed"
+      ],
+      "cross_compilation": "Required for multi-arch"
+    },
+    "hardware": {
+      "source_architecture": "CPU",
+      "target_architecture": "GPU",
+      "compilers": "GCC+Clang for source, target-specific for target"
+    },
+    "available_tools": [
+      "Cross-compilers",
+      "arch-specific profilers",
+      "simulators"
+    ],
+    "unknown_characteristics": [
+      "CPU cache-aware memory access",
+      "GPU thread/block memory patterns",
+      "Architecture-specific constraints",
+      "Cross-arch translation effectiveness"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Functional equivalence > 99.9%",
+        "weight": 0.35
+      },
+      "efficiency": {
+        "requirements": "Performance transfer rate > 50%",
+        "weight": 0.3
+      },
+      "generalization": {
+        "requirements": "Knowledge abstraction quality",
+        "weight": 0.35
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.72,
+      "optimal_theoretical": 0.92,
+      "llm_generic_baseline": 0.35,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "pattern_preservation": 0.35,
+      "adaptation_quality": 0.35,
+      "performance_transfer": 0.3
+    }
+  },
+  {
+    "task_id": "G-003",
+    "name": "Single-to-Multi-Socket NUMA Generalization",
+    "category": "generalize",
+    "difficulty": "expert",
+    "mission": "Generalize NUMA optimization from single to multi-socket",
+    "description": "Generalization Task 3: Generalize NUMA optimization from single to multi-socket. Transfer optimization knowledge across architectures/domains.",
+    "estimated_time_budget": "30 minutes",
+    "codebase": {
+      "files": [
+        "generalize_3_source.c",
+        "target_template.c"
+      ],
+      "languages": [
+        "C99",
+        "assembly as needed"
+      ],
+      "cross_compilation": "Required for multi-arch"
+    },
+    "hardware": {
+      "source_architecture": "Single-socket",
+      "target_architecture": "Multi-socket",
+      "compilers": "GCC+Clang for source, target-specific for target"
+    },
+    "available_tools": [
+      "Cross-compilers",
+      "arch-specific profilers",
+      "simulators"
+    ],
+    "unknown_characteristics": [
+      "Single-socket NUMA optimization",
+      "Multi-socket inter-socket optimization",
+      "Architecture-specific constraints",
+      "Cross-arch translation effectiveness"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Functional equivalence > 99.9%",
+        "weight": 0.35
+      },
+      "efficiency": {
+        "requirements": "Performance transfer rate > 50%",
+        "weight": 0.3
+      },
+      "generalization": {
+        "requirements": "Knowledge abstraction quality",
+        "weight": 0.35
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.85,
+      "optimal_theoretical": 0.92,
+      "llm_generic_baseline": 0.35,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "pattern_preservation": 0.35,
+      "adaptation_quality": 0.35,
+      "performance_transfer": 0.3
+    }
+  },
+  {
+    "task_id": "G-004",
+    "name": "Intel-to-AMD ISA Generalization",
+    "category": "generalize",
+    "difficulty": "expert",
+    "mission": "Transfer AMD-specific optimizations to Intel architectures",
+    "description": "Generalization Task 4: Transfer AMD-specific optimizations to Intel architectures. Transfer optimization knowledge across architectures/domains.",
+    "estimated_time_budget": "30 minutes",
+    "codebase": {
+      "files": [
+        "generalize_4_source.c",
+        "target_template.c"
+      ],
+      "languages": [
+        "C99",
+        "assembly as needed"
+      ],
+      "cross_compilation": "Required for multi-arch"
+    },
+    "hardware": {
+      "source_architecture": "AMD",
+      "target_architecture": "Intel",
+      "compilers": "GCC+Clang for source, target-specific for target"
+    },
+    "available_tools": [
+      "Cross-compilers",
+      "arch-specific profilers",
+      "simulators"
+    ],
+    "unknown_characteristics": [
+      "AMD Zen 4 optimized code",
+      "Intel Sapphire Rapids adaptation",
+      "Architecture-specific constraints",
+      "Cross-arch translation effectiveness"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Functional equivalence > 99.9%",
+        "weight": 0.35
+      },
+      "efficiency": {
+        "requirements": "Performance transfer rate > 50%",
+        "weight": 0.3
+      },
+      "generalization": {
+        "requirements": "Knowledge abstraction quality",
+        "weight": 0.35
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.68,
+      "optimal_theoretical": 0.92,
+      "llm_generic_baseline": 0.35,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "pattern_preservation": 0.35,
+      "adaptation_quality": 0.35,
+      "performance_transfer": 0.3
+    }
+  },
+  {
+    "task_id": "G-005",
+    "name": "Bench-to-Production System Scaling",
+    "category": "generalize",
+    "difficulty": "expert",
+    "mission": "Scale microbenchmark optimizations to production workload",
+    "description": "Generalization Task 5: Scale microbenchmark optimizations to production workload. Transfer optimization knowledge across architectures/domains.",
+    "estimated_time_budget": "30 minutes",
+    "codebase": {
+      "files": [
+        "generalize_5_source.c",
+        "target_template.c"
+      ],
+      "languages": [
+        "C99",
+        "assembly as needed"
+      ],
+      "cross_compilation": "Required for multi-arch"
+    },
+    "hardware": {
+      "source_architecture": "Microbenchmark-optimized",
+      "target_architecture": "Multi-application",
+      "compilers": "GCC+Clang for source, target-specific for target"
+    },
+    "available_tools": [
+      "Cross-compilers",
+      "arch-specific profilers",
+      "simulators"
+    ],
+    "unknown_characteristics": [
+      "Microbenchmark-optimized kernels",
+      "Multi-application production optimization",
+      "Architecture-specific constraints",
+      "Cross-arch translation effectiveness"
+    ],
+    "evaluation_criteria": {
+      "correctness": {
+        "requirements": "Functional equivalence > 99.9%",
+        "weight": 0.35
+      },
+      "efficiency": {
+        "requirements": "Performance transfer rate > 50%",
+        "weight": 0.3
+      },
+      "generalization": {
+        "requirements": "Knowledge abstraction quality",
+        "weight": 0.35
+      }
+    },
+    "reference_results": {
+      "expert_baseline": 0.58,
+      "optimal_theoretical": 0.92,
+      "llm_generic_baseline": 0.35,
+      "algorithmic_solution": 0.95
+    },
+    "intelligence_metrics_weights": {
+      "pattern_preservation": 0.35,
+      "adaptation_quality": 0.35,
+      "performance_transfer": 0.3
+    }
+  }
+]
