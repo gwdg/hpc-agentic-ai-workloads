@@ -1,0 +1,152 @@
+[build-system]
+requires = ["setuptools>=61.0", "setuptools-scm>=8.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hpc-arc-benchmark-suite"
+version = "1.0.0"
+description = "HPC-ARC Benchmark Suite - Complete standalone framework for AI intelligence evaluation in HPC performance engineering"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [
+    {name = "Anja Gerbes", email = "anja.gerbes@gwdg.de"},
+    {name = "HPC-ARC Benchmark Suite Team", email = "hpc-arc@gwdg.de"}
+]
+maintainers = [
+    {name = "Anja Gerbes", email = "anja.gerbes@gwdg.de"}
+]
+keywords = [
+    "hpc", "benchmark", "artificial intelligence", "performance engineering",
+    "high-performance computing", "machine learning", "intelligence evaluation",
+    "hardware profiling", "LIKWID", "CUDA", "ROCm", "Intel MKL"
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: System :: Distributed Computing",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: C",
+    "Programming Language :: C++",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Operating System :: POSIX :: Linux",
+    "Operating System :: MacOS",
+    "Environment :: Console",
+]
+dependencies = [
+    "numpy>=1.21.0",
+    "pandas>=1.3.0",
+    "scipy>=1.7.0",
+    "matplotlib>=3.4.0",
+    "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "pytest-cov>=3.0.0",
+    "black>=22.0.0",
+    "flake8>=4.0.0",
+    "mypy>=0.950",
+]
+gpu = [
+    # GPU dependencies (install based on hardware availability)
+    # cupy-cuda11x  # For NVIDIA CUDA - pip install cupy-cuda11x
+    # cupy-rocm-5-0  # For AMD ROCm - pip install cupy-rocm-5-0
+]
+all = [
+    "hpc-arc-benchmark-suite[dev,gpu]",
+]
+
+[project.scripts]
+hpc-arc = "hpc_arc.__main__:main"
+
+[project.urls]
+Homepage = "https://github.com/HPC-ARC/benchmark-suite"
+Documentation = "https://github.com/HPC-ARC/benchmark-suite#readme"
+Repository = "https://github.com/HPC-ARC/benchmark-suite.git"
+"Bug Tracker" = "https://github.com/HPC-ARC/benchmark-suite/issues"
+Changelog = "https://github.com/HPC-ARC/benchmark-suite/blob/main/CHANGELOG.md"
+
+[tool.setuptools]
+package-dir = {"" = "."}
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["hpc_arc", "hpc_arc.*", "core", "core.*", "evaluation", "evaluation.*", "phases", "phases.*"]
+
+[tool.setuptools.package-data]
+"hpc_arc" = ["*.md", "*.json", "*.txt", "*.c", "*.cu", "*.h"]
+"core" = ["*.py"]
+"evaluation" = ["*.py"]
+"phases" = ["*.py"]
+
+[tool.black]
+line-length = 100
+target-version = ['py38', 'py39', 'py310', 'py311']
+include = '\.pyi?$'
+extend-exclude = '''
+/(
+  # directories
+  \.eggs
+  | \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | build
+  | dist
+)/
+'''
+
+[tool.mypy]
+python_version = "3.8"
+warn_return_any = true
+warn_unused_configs = true
+ignore_missing_imports = true
+disable_error_code = ["attr-defined"]
+check_untyped_defs = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+addopts = [
+    "--strict-markers",
+    "--cov=.",
+    "--cov-report=term-missing",
+    "--cov-report=html",
+]
+markers = [
+    "slow: marks tests as slow (deselect with '-m \"not slow\"')",
+    "integration: marks tests as integration tests",
+    "unit: marks tests as unit tests",
+    "requires_gpu: marks tests that require GPU accelerators",
+    "requires_likwid: marks tests that require LIKWID profiling",
+]
+
+[tool.coverage.run]
+source = ["."]
+omit = [
+    "tests/*",
+    "*/test_*.py",
+    "*/__pycache__/*",
+]
+
+[tool.coverage.report]
+exclude_lines = [
+    "pragma: no cover",
+    "def __repr__",
+    "raise AssertionError",
+    "raise NotImplementedError",
+    "if __name__ == .__main__.:",
+    "if TYPE_CHECKING:",
+    "if typing.TYPE_CHECKING:",
+]
