@@ -1,0 +1,179 @@
+{
+  "benchmark_suite": "HPC-ARC",
+  "version": "1.0.0",
+  "description": "High-Performance Computing Abstraction and Reasoning Challenge - Interactive Reasoning Benchmark Suite for Measuring AI Systems' HPC Performance Engineering Intelligence",
+  
+  "execution_settings": {
+    "measurements_per_task": 5,
+    "confidence_interval": 0.95,
+    "timeout_per_iteration": 300,
+    "max_iterations": 8,
+    "convergence_threshold": 0.05
+  },
+  
+  "directories": {
+    "tasks": "tasks/",
+    "baselines": "data/baselines/",
+    "reference_implementations": "data/reference_implementations/",
+    "results": "results/",
+    "reports": "reports/",
+    "logs": "logs/"
+  },
+  
+  "evaluation": {
+    "correctness_threshold": 1e-6,
+    "efficiency_targets": {
+      "excellent": 0.90,
+      "good": 0.80,
+      "acceptable": 0.70,
+      "minimum": 0.60
+    },
+    "intelligence_weights": {
+      "exploration": 0.25,
+      "hypothesis": 0.25,
+      "adaptation": 0.30,
+      "generalization": 0.20
+    },
+    "tier_system": {
+      "S": {"min": 90, "max": 100, "description": "Outstanding"},
+      "A": {"min": 80, "max": 89, "description": "Excellent"},
+      "B": {"min": 70, "max": 79, "description": "Good"},
+      "C": {"min": 60, "max": 69, "description": "Acceptable"},
+      "D": {"min": 50, "max": 59, "description": "Below Average"},
+      "F": {"min": 0, "max": 49, "description": "Poor"}
+    }
+  },
+  
+  "tools": {
+    "profiling": {
+      "likwid": {
+        "path": "likwid-perfcounter",
+        "version": "5.x",
+        "groups": ["FLOPS_DP", "MEM", "CACHE", "ENERGY"]
+      },
+      "perf": {
+        "path": "perf",
+        "version": "6.x",
+        "events": ["cycles", "instructions", "cache-references", "cache-misses"]
+      },
+      "papi": {
+        "path": "papi_native",
+        "version": "7.x",
+        "events": ["PAPI_TOT_INS", "PAPI_VEC_DP"]
+      }
+    },
+    "compilation": {
+      "gcc": {"path": "gcc", "version": "11.x"},
+      "clang": {"path": "clang", "version": "14.x"},
+      "llvm": {"path": "opt", "version": "14.x"}
+    },
+    "parallelization": {
+      "openmp": {"path": "gcc", "flags": "-fopenmp"},
+      "mpi": {"path": "mpicc", "version": "4.x"}
+    }
+  },
+  
+  "phases": {
+    "explore": {
+      "task_count": 25,
+      "time_budget_hours": 2,
+      "iteration_limit": 3,
+      "experiments_per_iteration": 3,
+      "evaluation_criteria": {
+        "model_accuracy_threshold": 0.85,
+        "hypothesis_count_min": 2,
+        "profiling_coverage_min": 3
+      }
+    },
+    "hypothesize": {
+      "task_count": 20,
+      "time_budget_hours": 1,
+      "iteration_limit": 3,
+      "evaluation_criteria": {
+        "hypothesis_count_min": 3,
+        "prediction_confidence_min": 0.7,
+        "feasibility_analysis": true
+      }
+    },
+    "execute": {
+      "task_count": 55,
+      "time_budget_hours": 3,
+      "iteration_limit": 8,
+      "max_optimization_stages": 5,
+      "evaluation_criteria": {
+        "correctness_threshold": 1e-6,
+        "convergence_threshold": 0.05,
+        "target_efficiency_min": 0.80
+      }
+    },
+    "generalize": {
+      "task_count": 5,
+      "time_budget_hours": 2,
+      "iteration_limit": 3,
+      "architecture_pairs": [
+        {"source": "x86_64", "target": "ARM64"},
+        {"source": "x86_64", "target": "GPU"},
+        {"source": "ARM64", "target": "x86_64"}
+      ],
+      "evaluation_criteria": {
+        "transfer_efficiency_target": 0.70,
+        "pattern_preservation_min": 0.75
+      }
+    }
+  },
+  
+  "validation": {
+    "statistical": {
+      "n_measurements": 5,
+      "confidence_interval": 0.95,
+      "min_reproducibility": 0.95,
+      "max_p_value": 0.05
+    },
+    "correctness": {
+      "numerical_tolerance": 1e-6,
+      "relative_error_max": 1e-9,
+      "test_cases": ["standard", "large_scale", "boundary", "non_square", "random"]
+    },
+    "performance": {
+      "measurement_iterations": 5,
+      "warmup_runs": 3,
+      "stability_threshold": 0.05
+    }
+  },
+  
+  "logging": {
+    "level": "INFO",
+    "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+    "console": true,
+    "file": "logs/benchmark_execution.log",
+    "detailed_task_logs": "logs/tasks/{task_id}.log"
+  },
+  
+  "reporting": {
+    "formats": ["json", "html", "pdf"],
+    "include_detailed_metrics": true,
+    "generate_charts": true,
+    "statistical_summary": true
+  },
+  
+  "integration": {
+    "frameworks": {
+      "pascit": {
+        "enabled": false,
+        "status": "deprecated",
+        "migration_path": "Use standalone HPC-ARC suite instead",
+        "version": "1.0.0"
+      },
+      "standalone": {
+        "enabled": true,
+        "status": "active",
+        "version": "1.0.0"
+      }
+    },
+    "compatibility": {
+      "llm_backends": ["openai", "anthropic", "local"],
+      "hardware_platforms": ["x86_64", "ARM64", "GPU"],
+      "operating_systems": ["Linux", "macOS"]
+    }
+  }
+}
